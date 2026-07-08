@@ -1,0 +1,20 @@
+#!/bin/bash
+# SERVICE_ROLE_KEY'i Vercel'e ekle
+# Gerçek değer .env dosyasındadır (SERVICE_ROLE_KEY)
+
+# Production
+vercel env add SERVICE_ROLE_KEY production <<EOF
+BURAYA_ENV_DOSYASINDAN_SERVICE_ROLE_KEY_DEGERI_GIRILECEK
+EOF
+
+# Preview
+vercel env add SERVICE_ROLE_KEY preview <<EOF
+BURAYA_ENV_DOSYASINDAN_SERVICE_ROLE_KEY_DEGERI_GIRILECEK
+EOF
+
+# Development
+vercel env add SERVICE_ROLE_KEY development <<EOF
+BURAYA_ENV_DOSYASINDAN_SERVICE_ROLE_KEY_DEGERI_GIRILECEK
+EOF
+
+echo "✅ SERVICE_ROLE_KEY eklendi!"

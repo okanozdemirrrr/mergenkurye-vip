@@ -1,0 +1,6 @@
+whatsapp-bot/whatsapp-session/
+node_modules/
+.env
+*.exe
+*.pkg
+thermal_printer/build/
