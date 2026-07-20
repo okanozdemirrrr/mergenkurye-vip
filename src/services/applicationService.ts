@@ -17,22 +17,21 @@ export async function createApplication(
   data: CourierApplicationData | RestaurantApplicationData
 ): Promise<ApplicationResponse> {
   try {
-    const { data: application, error } = await supabase
-      .from('applications')
-      .insert({
-        type,
-        status: 'beklemede',
-        full_data: data
-      })
-      .select()
-      .single()
+    const response = await fetch('/api/applications/create', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type, data })
+    })
 
-    if (error) throw error
+    const result = await response.json()
+    if (!response.ok || !result.success) {
+      throw new Error(result.error || 'Başvuru oluşturulamadı')
+    }
 
     return {
       success: true,
-      message: 'Başvurunuz alındı, admin onayı bekleniyor',
-      application_id: application.id
+      message: result.message || 'Başvurunuz alındı, admin onayı bekleniyor',
+      application_id: result.application_id
     }
   } catch (error: any) {
     console.error('Başvuru oluşturma hatası:', error)
