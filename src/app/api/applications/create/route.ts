@@ -7,10 +7,34 @@ type CreatePayload = {
   data: CourierApplicationData | RestaurantApplicationData
 }
 
+function getServiceRoleKey(): string | undefined {
+  return (
+    process.env.SERVICE_ROLE_KEY ||
+    process.env.SUPABASE_SERVICE_ROLE_KEY ||
+    process.env.SUPABASE_SERVICE_ROLE_JWT
+  )
+}
+
+function mapDatabaseError(message: string): string {
+  if (message.includes('permission denied for schema public')) {
+    return 'Veritabanı izin hatası: public schema erişimi yok. Supabase SQL Editor\'de database/setup_applications_table.sql dosyasını çalıştırın ve Vercel\'de SERVICE_ROLE_KEY değerinin service role (secret) anahtarı olduğundan emin olun.'
+  }
+
+  if (message.includes('Invalid API key')) {
+    return 'Geçersiz Supabase API anahtarı. Vercel ortam değişkenlerinde SERVICE_ROLE_KEY değerini kontrol edin.'
+  }
+
+  if (message.includes('relation "applications" does not exist')) {
+    return 'applications tablosu bulunamadı. Supabase SQL Editor\'de database/setup_applications_table.sql dosyasını çalıştırın.'
+  }
+
+  return message
+}
+
 export async function POST(request: NextRequest) {
   try {
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-    const serviceRoleKey = process.env.SERVICE_ROLE_KEY
+    const serviceRoleKey = getServiceRoleKey()
 
     if (!supabaseUrl || !serviceRoleKey) {
       return NextResponse.json(
@@ -46,7 +70,7 @@ export async function POST(request: NextRequest) {
 
     if (error) {
       return NextResponse.json(
-        { success: false, error: error.message || 'Başvuru oluşturulamadı' },
+        { success: false, error: mapDatabaseError(error.message || 'Başvuru oluşturulamadı') },
         { status: 500 }
       )
     }

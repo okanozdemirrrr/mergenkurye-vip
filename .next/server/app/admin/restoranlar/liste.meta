@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/restoranlar/layout,_N_T_/admin/restoranlar/liste/layout,_N_T_/admin/restoranlar/liste/page,_N_T_/admin/restoranlar/liste"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/restoranlar/liste/__PAGE__",
+    "/admin/restoranlar/liste",
+    "/admin/restoranlar",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

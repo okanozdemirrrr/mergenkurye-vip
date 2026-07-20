@@ -1,0 +1,48 @@
+module.exports=[70106,a=>{"use strict";var b=a.i(72131);let c=(...a)=>a.filter((a,b,c)=>!!a&&""!==a.trim()&&c.indexOf(a)===b).join(" ").trim(),d=a=>{let b=a.replace(/^([A-Z])|[\s-_]+(\w)/g,(a,b,c)=>c?c.toUpperCase():b.toLowerCase());return b.charAt(0).toUpperCase()+b.slice(1)};var e={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};let f=(0,b.forwardRef)(({color:a="currentColor",size:d=24,strokeWidth:f=2,absoluteStrokeWidth:g,className:h="",children:i,iconNode:j,...k},l)=>(0,b.createElement)("svg",{ref:l,...e,width:d,height:d,stroke:a,strokeWidth:g?24*Number(f)/Number(d):f,className:c("lucide",h),...!i&&!(a=>{for(let b in a)if(b.startsWith("aria-")||"role"===b||"title"===b)return!0;return!1})(k)&&{"aria-hidden":"true"},...k},[...j.map(([a,c])=>(0,b.createElement)(a,c)),...Array.isArray(i)?i:[i]])),g=(a,e)=>{let g=(0,b.forwardRef)(({className:g,...h},i)=>(0,b.createElement)(f,{ref:i,iconNode:e,className:c(`lucide-${d(a).replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase()}`,`lucide-${a}`,g),...h}));return g.displayName=d(a),g};a.s(["default",()=>g],70106)},5784,67552,a=>{"use strict";var b=a.i(70106);let c=(0,b.default)("chevron-down",[["path",{d:"m6 9 6 6 6-6",key:"qrunsl"}]]);a.s(["ChevronDown",()=>c],5784);let d=(0,b.default)("chevron-up",[["path",{d:"m18 15-6-6-6 6",key:"153udz"}]]);a.s(["ChevronUp",()=>d],67552)},31167,a=>{"use strict";var b=a.i(87924),c=a.i(72131),d=a.i(5784),e=a.i(67552),f=a.i(59777);let g=`
+  id,
+  created_at,
+  courier_id,
+  total_cash,
+  total_card,
+  total_iban,
+  total_earned,
+  received_amount,
+  amount_paid,
+  couriers ( full_name ),
+  packages!packages_courier_settlement_id_fkey ( order_number, delivered_at )
+`,h=`
+  id,
+  created_at,
+  courier_id,
+  total_cash,
+  total_card,
+  total_iban,
+  total_earned,
+  received_amount,
+  amount_paid,
+  couriers ( full_name ),
+  packages ( order_number, delivered_at )
+`,i=`
+  id,
+  created_at,
+  courier_id,
+  total_cash,
+  total_card,
+  total_iban,
+  total_earned,
+  received_amount,
+  amount_paid,
+  couriers ( full_name )
+`;function j(a){let b=Number(a);return Number.isFinite(b)?`${b.toLocaleString("tr-TR",{minimumFractionDigits:2,maximumFractionDigits:2})} ₺`:"0,00 ₺"}function k(){let[a,k]=(0,c.useState)([]),[l,m]=(0,c.useState)(new Map),[n,o]=(0,c.useState)(!0),[p,q]=(0,c.useState)(null),[r,s]=(0,c.useState)(null),[t,u]=(0,c.useState)(null),v=(0,c.useCallback)(async a=>{let b=[...new Set(a.filter(Boolean))];if(0===b.length)return new Map;let{data:c,error:d}=await f.supabase.from("couriers").select("id, full_name").in("id",b);if(d)throw d;let e=new Map;for(let a of c||[])a.id&&a.full_name&&e.set(a.id,a.full_name);return e},[]),w=(0,c.useCallback)(async()=>{o(!0),q(null),s(null),u(null);let a=[],b=async a=>f.supabase.from("courier_settlements").select(a).order("created_at",{ascending:!1});try{let c=await b(g);if(c.error&&((c=await b(h)).error||a.push("Paket join: fkey adı kullanılamadı; varsayılan packages ilişkisi kullanıldı.")),c.error&&((c=await b(i)).error||a.push("Paket detayları join ile gelmedi; satır genişletmede liste boş görünebilir.")),c.error){let b=await f.supabase.from("courier_settlements").select(`
+            id,
+            created_at,
+            courier_id,
+            total_cash,
+            total_card,
+            total_iban,
+            total_earned,
+            received_amount,
+            amount_paid
+          `).order("created_at",{ascending:!1});if(b.error)throw b.error;a.push("Kurye adı join sorgusu başarısız; isimler couriers tablosundan ayrı yüklendi.");let c=b.data||[],d=await v(c.map(a=>a.courier_id));m(d),k(c),s(a.length?a.join(" "):null);return}let d=c.data||[];if(d.some(a=>{let b=a.couriers;return!b||(Array.isArray(b)?!b[0]?.full_name:!b.full_name)})&&d.length>0){let b=await v(d.map(a=>a.courier_id));m(b),a.push("Bazı kayıtlarda join ile kurye adı gelmedi; couriers tablosundan tamamlandı.")}else m(new Map);k(d),s(a.length?a.join(" "):null)}catch(a){q(a instanceof Error?a.message:String(a)),k([])}finally{o(!1)}},[v]);(0,c.useEffect)(()=>{w()},[w]);let x=a=>{u(b=>b===a?null:a)};return(0,b.jsxs)("div",{className:"space-y-6",children:[(0,b.jsxs)("div",{children:[(0,b.jsx)("h1",{className:"text-2xl sm:text-3xl font-bold text-white tracking-tight",children:"Mutabakat Geçmişi"}),(0,b.jsx)("p",{className:"text-slate-400 text-sm mt-1",children:"Kurye gün sonu mutabakat fişleri — en yeni kayıtlar üstte"})]}),r&&(0,b.jsx)("p",{className:"text-amber-400/90 text-xs border border-amber-800/40 bg-amber-950/30 rounded-lg px-4 py-2",children:r}),p&&(0,b.jsxs)("p",{className:"text-red-400 text-sm border border-red-900/50 bg-red-950/30 rounded-lg px-4 py-3",children:["Veriler yüklenemedi: ",p]}),(0,b.jsx)("div",{className:"rounded-xl border border-slate-700/80 bg-slate-900/60 shadow-xl overflow-hidden",children:n?(0,b.jsx)("div",{className:"flex items-center justify-center py-24",children:(0,b.jsx)("div",{className:"h-10 w-10 animate-spin rounded-full border-2 border-slate-600 border-t-orange-500"})}):0!==a.length||p?(0,b.jsx)("div",{className:"overflow-x-auto admin-scrollbar",children:(0,b.jsxs)("table",{className:"w-full text-sm",children:[(0,b.jsx)("thead",{children:(0,b.jsxs)("tr",{className:"bg-slate-800/80 border-b border-slate-700",children:[(0,b.jsx)("th",{className:"w-10 py-3.5 px-2","aria-label":"Detay"}),(0,b.jsx)("th",{className:"text-left py-3.5 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider",children:"Tarih/Saat"}),(0,b.jsx)("th",{className:"text-left py-3.5 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider",children:"Kurye Adı"}),(0,b.jsx)("th",{className:"text-right py-3.5 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider",children:"Nakit"}),(0,b.jsx)("th",{className:"text-right py-3.5 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider",children:"Kart"}),(0,b.jsx)("th",{className:"text-right py-3.5 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider",children:"IBAN"}),(0,b.jsx)("th",{className:"text-right py-3.5 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider",children:"Kurye Hakedişi"}),(0,b.jsx)("th",{className:"text-right py-3.5 px-4 text-xs font-semibold text-orange-400 uppercase tracking-wider",children:"Kasaya Alınan Net Tutar"})]})}),(0,b.jsx)("tbody",{className:"divide-y divide-slate-800/80",children:a.map(a=>{let f,g,h,i=t===a.id,k=(f=a.packages)?[...Array.isArray(f)?f:[f]].sort((a,b)=>{let c=a.delivered_at?new Date(a.delivered_at).getTime():0;return(b.delivered_at?new Date(b.delivered_at).getTime():0)-c}):[];return(0,b.jsxs)(c.Fragment,{children:[(0,b.jsxs)("tr",{role:"button",tabIndex:0,onClick:()=>x(a.id),onKeyDown:b=>{("Enter"===b.key||" "===b.key)&&(b.preventDefault(),x(a.id))},className:`transition-colors cursor-pointer ${i?"bg-slate-800/70":"hover:bg-slate-800/50"}`,children:[(0,b.jsx)("td",{className:"py-3.5 px-2 text-slate-400",children:i?(0,b.jsx)(e.ChevronUp,{className:"h-4 w-4 mx-auto","aria-hidden":!0}):(0,b.jsx)(d.ChevronDown,{className:"h-4 w-4 mx-auto","aria-hidden":!0})}),(0,b.jsx)("td",{className:"py-3.5 px-4 text-slate-300 whitespace-nowrap",children:Number.isNaN((g=new Date(a.created_at)).getTime())?"—":g.toLocaleString("tr-TR",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"})}),(0,b.jsxs)("td",{className:"py-3.5 px-4 text-white font-medium",children:[(h=a.couriers)&&!Array.isArray(h)&&h.full_name?h.full_name:Array.isArray(h)&&h[0]?.full_name?h[0].full_name:l.get(a.courier_id)??"Bilinmeyen Kurye",k.length>0&&(0,b.jsxs)("span",{className:"ml-2 text-xs font-normal text-slate-500",children:["(",k.length," paket)"]})]}),(0,b.jsx)("td",{className:"py-3.5 px-4 text-right text-slate-300 tabular-nums",children:j(a.total_cash)}),(0,b.jsx)("td",{className:"py-3.5 px-4 text-right text-slate-300 tabular-nums",children:j(a.total_card)}),(0,b.jsx)("td",{className:"py-3.5 px-4 text-right text-slate-300 tabular-nums",children:j(a.total_iban)}),(0,b.jsx)("td",{className:"py-3.5 px-4 text-right text-slate-300 tabular-nums",children:j(a.total_earned)}),(0,b.jsx)("td",{className:"py-3.5 px-4 text-right text-orange-500 font-bold tabular-nums",children:j(function(a){let b=Number(a.received_amount);if(Number.isFinite(b)&&b>0)return b;let c=Number(a.amount_paid);return Number.isFinite(c)?c:0}(a))})]}),i&&(0,b.jsx)("tr",{className:"bg-slate-950/60",children:(0,b.jsx)("td",{colSpan:8,className:"px-4 py-4",children:0===k.length?(0,b.jsx)("p",{className:"text-sm text-slate-500",children:"Bu mutabakata ait paket detayı bulunamadı."}):(0,b.jsx)("div",{className:"flex flex-wrap gap-2",children:k.map((c,d)=>(0,b.jsxs)("span",{className:"inline-flex items-center gap-2 rounded-full border border-slate-600/80 bg-slate-800/80 px-3 py-1.5 text-xs text-slate-200",children:[(0,b.jsx)("span",{className:"font-semibold text-white",children:c.order_number?.trim()||"—"}),(0,b.jsx)("span",{className:"text-slate-400",children:function(a){if(!a)return"—";let b=new Date(a);return Number.isNaN(b.getTime())?"—":b.toLocaleString("tr-TR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}(c.delivered_at)})]},`${a.id}-${c.order_number??d}-${c.delivered_at??d}`))})})})]},a.id)})})]})}):(0,b.jsx)("div",{className:"py-24 text-center",children:(0,b.jsx)("p",{className:"text-slate-500 text-base",children:"Henüz mutabakat kaydı bulunmuyor."})})})]})}a.s(["default",()=>k])}];
+
+//# sourceMappingURL=_d285d4ea._.js.map

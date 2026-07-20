@@ -1,0 +1,284 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/account-deletion",
+      "regex": "^/account\\-deletion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/account\\-deletion(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin/gecmis",
+      "regex": "^/admin/gecmis(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/gecmis(?:/)?$"
+    },
+    {
+      "page": "/admin/istatistikler",
+      "regex": "^/admin/istatistikler(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/istatistikler(?:/)?$"
+    },
+    {
+      "page": "/admin/kuryeler/basvurular",
+      "regex": "^/admin/kuryeler/basvurular(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/kuryeler/basvurular(?:/)?$"
+    },
+    {
+      "page": "/admin/kuryeler/hesaplar",
+      "regex": "^/admin/kuryeler/hesaplar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/kuryeler/hesaplar(?:/)?$"
+    },
+    {
+      "page": "/admin/kuryeler/kazanclar",
+      "regex": "^/admin/kuryeler/kazanclar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/kuryeler/kazanclar(?:/)?$"
+    },
+    {
+      "page": "/admin/kuryeler/mutabakatlar",
+      "regex": "^/admin/kuryeler/mutabakatlar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/kuryeler/mutabakatlar(?:/)?$"
+    },
+    {
+      "page": "/admin/kuryeler/performans",
+      "regex": "^/admin/kuryeler/performans(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/kuryeler/performans(?:/)?$"
+    },
+    {
+      "page": "/admin/market",
+      "regex": "^/admin/market(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/market(?:/)?$"
+    },
+    {
+      "page": "/admin/musteriler/duyurular",
+      "regex": "^/admin/musteriler/duyurular(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/musteriler/duyurular(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/basvurular",
+      "regex": "^/admin/restoranlar/basvurular(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/basvurular(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/borc",
+      "regex": "^/admin/restoranlar/borc(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/borc(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/detaylar",
+      "regex": "^/admin/restoranlar/detaylar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/detaylar(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/komisyon",
+      "regex": "^/admin/restoranlar/komisyon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/komisyon(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/liste",
+      "regex": "^/admin/restoranlar/liste(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/liste(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/odemeler",
+      "regex": "^/admin/restoranlar/odemeler(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/odemeler(?:/)?$"
+    },
+    {
+      "page": "/admin/restoranlar/uygulama-siparisleri",
+      "regex": "^/admin/restoranlar/uygulama\\-siparisleri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/restoranlar/uygulama\\-siparisleri(?:/)?$"
+    },
+    {
+      "page": "/api/applications/action",
+      "regex": "^/api/applications/action(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/applications/action(?:/)?$"
+    },
+    {
+      "page": "/api/applications/create",
+      "regex": "^/api/applications/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/applications/create(?:/)?$"
+    },
+    {
+      "page": "/api/restaurant-cancel-order",
+      "regex": "^/api/restaurant\\-cancel\\-order(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/restaurant\\-cancel\\-order(?:/)?$"
+    },
+    {
+      "page": "/api/send-push",
+      "regex": "^/api/send\\-push(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/send\\-push(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/hesap-silme",
+      "regex": "^/hesap\\-silme(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hesap\\-silme(?:/)?$"
+    },
+    {
+      "page": "/kurye",
+      "regex": "^/kurye(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kurye(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/r",
+      "regex": "^/r(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/r(?:/)?$"
+    },
+    {
+      "page": "/register-kurye",
+      "regex": "^/register\\-kurye(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register\\-kurye(?:/)?$"
+    },
+    {
+      "page": "/register-restoran",
+      "regex": "^/register\\-restoran(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register\\-restoran(?:/)?$"
+    },
+    {
+      "page": "/restoran",
+      "regex": "^/restoran(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restoran(?:/)?$"
+    },
+    {
+      "page": "/restoran/borc-durumu",
+      "regex": "^/restoran/borc\\-durumu(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restoran/borc\\-durumu(?:/)?$"
+    },
+    {
+      "page": "/restoran/istatistikler",
+      "regex": "^/restoran/istatistikler(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restoran/istatistikler(?:/)?$"
+    },
+    {
+      "page": "/restoran/musterilerim",
+      "regex": "^/restoran/musterilerim(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restoran/musterilerim(?:/)?$"
+    },
+    {
+      "page": "/restoran/restoranim",
+      "regex": "^/restoran/restoranim(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restoran/restoranim(?:/)?$"
+    },
+    {
+      "page": "/restoranlar",
+      "regex": "^/restoranlar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/restoranlar(?:/)?$"
+    },
+    {
+      "page": "/takip",
+      "regex": "^/takip(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/takip(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

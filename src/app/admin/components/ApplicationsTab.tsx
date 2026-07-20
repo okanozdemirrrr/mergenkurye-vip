@@ -51,9 +51,11 @@ export function ApplicationsTab({ type, onSuccess, onError }: ApplicationsTabPro
     setProcessingIds(prev => new Set(prev).add(applicationId))
     
     try {
-      // Admin user ID ve Company ID - Gerçek UUID'ler
+      // Admin user ID frontend'de sabit, company_id backend'de otomatik doğrulanır/fallback edilir
       const adminUserId = '00000000-0000-0000-0000-000000000000' // Dummy UUID
-      const companyId = '81b7cb2e-701c-4b54-949a-209f86eaa099' // MERGEN001 gerçek UUID
+      const companyId = typeof window !== 'undefined'
+        ? localStorage.getItem('auth_company_id') || undefined
+        : undefined
 
       const result = type === 'kurye'
         ? await approveCourierApplication(applicationId, adminUserId, companyId)
@@ -152,18 +154,18 @@ export function ApplicationsTab({ type, onSuccess, onError }: ApplicationsTabPro
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold text-white">
-          {type === 'kurye' ? '🏍️ Kurye' : '🍽️ Restoran'} Başvuruları
+        <h2 className="text-xl font-semibold text-white tracking-tight">
+          {type === 'kurye' ? 'Kurye' : 'Restoran'} Başvuruları
         </h2>
         <button
           onClick={() => setShowRejected(!showRejected)}
-          className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+          className={`px-3.5 py-2 rounded-md text-sm font-medium transition-colors border ${
             showRejected
-              ? 'bg-slate-700 text-white hover:bg-slate-600'
-              : `bg-${color}-600 text-white hover:bg-${color}-700`
+              ? 'bg-slate-800 text-white border-slate-700 hover:bg-slate-700'
+              : 'bg-orange-600/90 text-white border-orange-500/40 hover:bg-orange-600'
           }`}
         >
-          {showRejected ? '← Bekleyen Başvurular' : 'Reddedilen Başvurular →'}
+          {showRejected ? 'Bekleyen Başvurular' : 'Reddedilen Başvurular'}
         </button>
       </div>
 
@@ -217,7 +219,7 @@ export function ApplicationsTab({ type, onSuccess, onError }: ApplicationsTabPro
                       ? 'bg-yellow-500/20 text-yellow-400'
                       : 'bg-red-500/20 text-red-400'
                   }`}>
-                    {app.status === 'beklemede' ? '⏳ Beklemede' : '❌ Reddedildi'}
+                    {app.status === 'beklemede' ? 'Beklemede' : 'Reddedildi'}
                   </div>
                 </div>
 
@@ -284,14 +286,14 @@ export function ApplicationsTab({ type, onSuccess, onError }: ApplicationsTabPro
                         disabled={isProcessing}
                         className={`flex-1 py-2 bg-green-600 hover:bg-green-700 disabled:bg-slate-700 text-white font-medium rounded-lg transition-colors disabled:cursor-not-allowed`}
                       >
-                        {isProcessing ? 'İşleniyor...' : '✅ Onayla'}
+                        {isProcessing ? 'İşleniyor...' : 'Onayla'}
                       </button>
                       <button
                         onClick={() => handleReject(app.id)}
                         disabled={isProcessing}
                         className="flex-1 py-2 bg-red-600 hover:bg-red-700 disabled:bg-slate-700 text-white font-medium rounded-lg transition-colors disabled:cursor-not-allowed"
                       >
-                        {isProcessing ? 'İşleniyor...' : '❌ Reddet'}
+                        {isProcessing ? 'İşleniyor...' : 'Reddet'}
                       </button>
                     </>
                   ) : (
@@ -300,7 +302,7 @@ export function ApplicationsTab({ type, onSuccess, onError }: ApplicationsTabPro
                       disabled={isProcessing}
                       className={`flex-1 py-2 bg-${color}-600 hover:bg-${color}-700 disabled:bg-slate-700 text-white font-medium rounded-lg transition-colors disabled:cursor-not-allowed`}
                     >
-                      {isProcessing ? 'İşleniyor...' : '🔄 Tekrar Değerlendir'}
+                      {isProcessing ? 'İşleniyor...' : 'Tekrar Değerlendir'}
                     </button>
                   )}
                 </div>

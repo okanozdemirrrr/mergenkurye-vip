@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/kuryeler/basvurular/page": "app/admin/kuryeler/basvurular/page.js",
+  "/admin/kuryeler/hesaplar/page": "app/admin/kuryeler/hesaplar/page.js",
+  "/admin/kuryeler/mutabakatlar/page": "app/admin/kuryeler/mutabakatlar/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/restoranlar/basvurular/page": "app/admin/restoranlar/basvurular/page.js",
+  "/admin/restoranlar/liste/page": "app/admin/restoranlar/liste/page.js",
+  "/api/applications/action/route": "app/api/applications/action/route.js",
+  "/api/applications/create/route": "app/api/applications/create/route.js",
+  "/kurye/page": "app/kurye/page.js",
+  "/page": "app/page.js",
+  "/register-kurye/page": "app/register-kurye/page.js",
+  "/register-restoran/page": "app/register-restoran/page.js",
+  "/restoran/page": "app/restoran/page.js"
+}

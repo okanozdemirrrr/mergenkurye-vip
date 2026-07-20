@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/restoran/layout,_N_T_/restoran/restoranim/layout,_N_T_/restoran/restoranim/page,_N_T_/restoran/restoranim"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/restoran/restoranim/__PAGE__",
+    "/restoran/restoranim",
+    "/restoran",
+    "/_index",
+    "/_head"
+  ]
+}

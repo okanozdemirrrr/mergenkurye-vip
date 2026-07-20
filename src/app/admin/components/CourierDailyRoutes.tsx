@@ -63,7 +63,10 @@ export function CourierDailyRoutes({ couriers }: CourierDailyRoutesProps) {
         return firstWithData ?? null
       })
     } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err)
+      let msg = 'Veriler yüklenemedi'
+      if (err instanceof Error) msg = err.message
+      else if (err && typeof err === 'object' && 'message' in err) msg = String((err as { message: unknown }).message)
+      else if (typeof err === 'string') msg = err
       setLoadError(msg)
       setAllPackages([])
     } finally {
@@ -127,10 +130,10 @@ export function CourierDailyRoutes({ couriers }: CourierDailyRoutesProps) {
   }
 
   return (
-    <div className="bg-slate-900 shadow-xl rounded-2xl p-2 border border-slate-800 h-full flex flex-col lg:sticky lg:top-4">
+    <div className="bg-slate-900 shadow-md rounded-lg p-3 border border-slate-800 h-full flex flex-col lg:sticky lg:top-4">
       <div className="flex items-center justify-between mb-2 px-1">
-        <h2 className="text-sm font-bold text-white tracking-tight">
-          📍 Kurye Günlük Rota ve Performans
+        <h2 className="text-sm font-semibold text-white tracking-tight">
+          Kurye Günlük Rota
         </h2>
         <button
           type="button"

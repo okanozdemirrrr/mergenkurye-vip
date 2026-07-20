@@ -153,13 +153,14 @@ export default function RestoranLayout({ children }: { children: React.ReactNode
   if (!isLoggedIn) {
     return (
       <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
-        <form onSubmit={handleLogin} className="bg-slate-900 p-8 rounded-2xl border border-slate-800 w-full max-w-md">
-          <div className="text-center mb-8">
-            <img src="/logo.png" alt="Logo" className="w-64 h-64 mx-auto mb-4" />
-            <h1 className="text-2xl font-bold text-white mb-2">Restoran Girişi</h1>
+        <form onSubmit={handleLogin} className="bg-slate-900 p-7 rounded-lg border border-slate-800 w-full max-w-md">
+          <div className="text-center mb-7">
+            <img src="/logo.png" alt="Logo" className="w-16 h-16 mx-auto mb-3" />
+            <h1 className="text-xl font-semibold text-white tracking-tight mb-1">Restoran Girişi</h1>
+            <p className="text-slate-500 text-sm">Sipariş ve operasyon paneli</p>
           </div>
           <select
-            className="w-full p-3 mb-3 bg-slate-800 border border-slate-700 rounded-lg text-white outline-none focus:border-orange-500 transition-colors"
+            className="w-full p-2.5 mb-3 bg-slate-950 border border-slate-700 rounded-md text-white outline-none focus:border-orange-500 transition-colors text-sm"
             value={loginForm.username}
             onChange={e => setLoginForm({ ...loginForm, username: e.target.value })}
           >
@@ -171,18 +172,18 @@ export default function RestoranLayout({ children }: { children: React.ReactNode
           <input
             type="password"
             placeholder="Şifre"
-            className="w-full p-3 mb-4 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 outline-none focus:border-orange-500 transition-colors"
+            className="w-full p-2.5 mb-4 bg-slate-950 border border-slate-700 rounded-md text-white placeholder-slate-600 outline-none focus:border-orange-500 transition-colors text-sm"
             value={loginForm.password}
             onChange={e => setLoginForm({ ...loginForm, password: e.target.value })}
           />
-          <button className="w-full py-3 bg-orange-600 hover:bg-orange-700 text-white font-medium rounded-lg transition-colors">
+          <button className="w-full py-2.5 bg-orange-600 hover:bg-orange-700 text-white text-sm font-semibold rounded-md transition-colors">
             Giriş Yap
           </button>
           <Link
             href="/register-restoran"
             className="block w-full text-center mt-4 text-orange-400 hover:text-orange-300 text-sm transition-colors"
           >
-            Hesabınız yok mu? Başvuru yapın →
+            Hesabınız yok mu? Başvuru yapın
           </Link>
           {errorMessage && <p className="text-red-400 text-sm mt-3 text-center">{errorMessage}</p>}
           {successMessage && <p className="text-green-400 text-sm mt-3 text-center">{successMessage}</p>}

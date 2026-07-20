@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/restoran/layout,_N_T_/restoran/istatistikler/layout,_N_T_/restoran/istatistikler/page,_N_T_/restoran/istatistikler"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/restoran/istatistikler/__PAGE__",
+    "/restoran/istatistikler",
+    "/restoran",
+    "/_index",
+    "/_head"
+  ]
+}

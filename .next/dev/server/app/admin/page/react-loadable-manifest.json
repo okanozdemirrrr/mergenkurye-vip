@@ -1,0 +1,12 @@
+{
+  "[project]/src/app/admin/components/LiveMapComponent.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/app/admin/components/LiveMapComponent.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_01afe5e8._.js",
+      "static/chunks/node_modules_21e897fb._.js",
+      "static/chunks/src_app_admin_components_LiveMapComponent_tsx_1d7c31c8._.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet_ef5f0413.css",
+      "static/chunks/src_app_admin_components_LiveMapComponent_tsx_fa3a9fd3._.js"
+    ]
+  }
+}

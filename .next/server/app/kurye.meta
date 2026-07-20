@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/kurye/layout,_N_T_/kurye/page,_N_T_/kurye"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/kurye/__PAGE__",
+    "/kurye",
+    "/_index",
+    "/_head"
+  ]
+}

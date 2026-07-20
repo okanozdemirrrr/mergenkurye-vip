@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/restoranlar/layout,_N_T_/admin/restoranlar/basvurular/layout,_N_T_/admin/restoranlar/basvurular/page,_N_T_/admin/restoranlar/basvurular"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/restoranlar/basvurular/__PAGE__",
+    "/admin/restoranlar/basvurular",
+    "/admin/restoranlar",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

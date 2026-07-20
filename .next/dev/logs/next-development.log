@@ -1,0 +1,2431 @@
+[00:00:01.474] Server  LOG     ✓ Ready in 1039ms
+[00:00:40.550] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:40.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.126] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542417968
+[00:00:41.126] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:00:41.126] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:00:41.126] Browser LOG     ✅ [RootPage] Admin oturumu bulundu — /admin'e yönlendiriliyor
+[00:00:41.126] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:00:41.126] Browser LOG     ✅ Looping audio hazır
+[00:00:41.254] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:00:42.147] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:00:42.147] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:00:42.147] Browser LOG     🍽️ fetchRestaurants başladı
+[00:00:42.147] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:00:42.147] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542418854
+[00:00:42.147] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:00:42.147] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:00:42.147] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:00:42.147] Browser LOG     🍽️ fetchRestaurants başladı
+[00:00:42.147] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:00:42.147] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542418855
+[00:00:42.147] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     ✅ Looping audio hazır
+[00:00:42.147] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     ✅ Looping audio hazır
+[00:00:42.147] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     🔓 Audio unlock deneniyor...
+[00:00:42.147] Browser LOG     🔓 Audio unlock deneniyor...
+[00:00:42.147] Browser LOG     ✅ Looping audio unlocked
+[00:00:42.147] Browser LOG     ✅ Short audio unlocked
+[00:00:42.147] Browser LOG     🎉 Audio tamamen unlocked!
+[00:00:42.147] Browser LOG     ✅ Admin audio unlocked
+[00:00:42.147] Browser LOG     ✅ Looping audio unlocked
+[00:00:42.147] Browser LOG     ✅ Short audio unlocked
+[00:00:42.147] Browser LOG     🎉 Audio tamamen unlocked!
+[00:00:42.147] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542418940
+[00:00:42.147] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542418940
+[00:00:42.147] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:00:42.147] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     ✅ Looping audio hazır
+[00:00:42.147] Browser LOG     ✅ Looping audio hazır
+[00:00:42.147] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     ✅ Looping audio hazır
+[00:00:42.147] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     ✅ Looping audio hazır
+[00:00:42.147] Browser LOG     ✅ Short audio hazır
+[00:00:42.147] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:00:42.147] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:00:42.647] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:00:42.647] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:00:42.647] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:00:42.647] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:00:42.647] Browser ERROR   Restoranlar yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:00:42.647] Browser ERROR   Günlük teslimat sayısı yüklenemedi: {"message":""}
+[00:00:42.647] Browser ERROR   Kuryeler yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;","message":"permission denied for table couriers"}
+[00:00:42.647] Browser ERROR   Siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:00:42.647] Browser ERROR   Günlük teslimat sayısı yüklenemedi: {"message":""}
+[00:00:42.647] Browser ERROR   Geçmiş siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:00:42.647] Browser ERROR   Supabase restaurants query error: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:00:42.647] Browser ERROR   Geçmiş siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:00:42.647] Browser ERROR   SUPABASE HATASI DETAYI: {
+  "code": "42501",
+  "details": null,
+  "hint": "Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;",
+  "message": "permission denied for table couriers"
+}
+[00:00:42.647] Browser ERROR   Tablo İsmi Kontrolü: couriers
+[00:00:42.647] Browser ERROR   Restoranlar yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:00:42.647] Browser ERROR   Kuryeler yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;","message":"permission denied for table couriers"}
+[00:00:42.647] Browser ERROR   Supabase restaurants query error: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:00:42.647] Browser ERROR   Siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:00:42.647] Browser ERROR   SUPABASE HATASI DETAYI: {
+  "code": "42501",
+  "details": null,
+  "hint": "Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;",
+  "message": "permission denied for table couriers"
+}
+[00:00:42.647] Browser ERROR   Tablo İsmi Kontrolü: couriers
+[00:00:44.448] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:00:45.440] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:00:45.440] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:00:45.542] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:00:45.542] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:01:41.939] Browser LOG     🍽️ fetchRestaurants başladı
+[00:01:41.939] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:01:42.800] Browser ERROR   Günlük teslimat sayısı yüklenemedi: {"message":""}
+[00:01:42.800] Browser ERROR   Kuryeler yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;","message":"permission denied for table couriers"}
+[00:01:42.800] Browser ERROR   Restoranlar yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:01:42.800] Browser ERROR   Siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:01:42.800] Browser ERROR   Geçmiş siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:02:42.996] Browser LOG     🍽️ fetchRestaurants başladı
+[00:02:42.996] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:02:42.996] Browser ERROR   Kuryeler yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;","message":"permission denied for table couriers"}
+[00:02:42.996] Browser ERROR   Restoranlar yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:02:42.996] Browser ERROR   Siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:02:42.996] Browser ERROR   Günlük teslimat sayısı yüklenemedi: {"message":""}
+[00:02:42.996] Browser ERROR   Geçmiş siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:03:42.993] Browser LOG     🍽️ fetchRestaurants başladı
+[00:03:42.993] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:03:42.993] Browser ERROR   Siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:03:42.993] Browser ERROR   Restoranlar yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.restaurants TO anon;","message":"permission denied for table restaurants"}
+[00:03:42.993] Browser ERROR   Kuryeler yüklenemedi: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.couriers TO anon;","message":"permission denied for table couriers"}
+[00:03:42.993] Browser ERROR   Günlük teslimat sayısı yüklenemedi: {"message":""}
+[00:03:42.993] Browser ERROR   Geçmiş siparişler yüklenirken hata: {"code":"42501","details":null,"hint":"Grant the required privileges to the current role with: GRANT SELECT ON public.packages TO anon;","message":"permission denied for table packages"}
+[00:04:43.003] Browser LOG     🍽️ fetchRestaurants başladı
+[00:04:43.003] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:04:43.003] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:04:43.003] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:04:43.003] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:04:43.003] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:04:43.003] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:04:43.003] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:05:43.001] Browser LOG     🍽️ fetchRestaurants başladı
+[00:05:43.001] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:05:43.001] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:05:43.001] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:05:43.001] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:05:43.001] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:05:43.001] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:05:43.001] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:05:54.998] Browser LOG     📡 Admin Realtime status: CHANNEL_ERROR
+[00:05:54.998] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CHANNEL_ERROR
+[00:05:59.992] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:06:02.999] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:06:05.003] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:06:33.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:33.652] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542770283
+[00:06:33.652] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:06:33.652] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:33.652] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:33.652] Browser LOG     ✅ [RootPage] Admin oturumu bulundu — /admin'e yönlendiriliyor
+[00:06:33.652] Browser LOG     ✅ Short audio hazır
+[00:06:33.652] Browser LOG     ✅ Looping audio hazır
+[00:06:33.652] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:06:33.652] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:06:33.652] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:06:33.652] Browser LOG     🍽️ fetchRestaurants başladı
+[00:06:33.652] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:06:33.652] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542770528
+[00:06:33.652] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:06:33.652] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:06:33.652] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:06:33.652] Browser LOG     🍽️ fetchRestaurants başladı
+[00:06:33.652] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:06:33.652] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542770529
+[00:06:33.652] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:33.652] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:33.652] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:33.652] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:33.652] Browser LOG     ✅ Looping audio hazır
+[00:06:33.652] Browser LOG     ✅ Short audio hazır
+[00:06:33.652] Browser LOG     ✅ Looping audio hazır
+[00:06:33.652] Browser LOG     ✅ Short audio hazır
+[00:06:33.813] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:06:33.813] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:06:35.998] Browser LOG     👤 Realtime courier event: UPDATE edb0065d-93a0-4a2b-9608-8d71f75afff2
+[00:06:43.603] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - TIMED_OUT
+[00:06:43.603] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - TIMED_OUT
+[00:06:43.603] Browser LOG     📡 Admin Realtime status: TIMED_OUT
+[00:06:43.815] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): TIMED_OUT
+[00:06:44.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:44.684] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542781496
+[00:06:44.684] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:06:44.684] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:44.684] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:44.684] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:06:44.684] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:06:44.684] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:06:44.684] Browser LOG     🍽️ fetchRestaurants başladı
+[00:06:44.684] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:06:44.684] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542781541
+[00:06:44.684] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:06:44.684] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:06:44.684] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:06:44.684] Browser LOG     🍽️ fetchRestaurants başladı
+[00:06:44.684] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:06:44.684] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542781542
+[00:06:44.684] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:44.684] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:44.684] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:44.684] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:44.684] Browser LOG     ✅ Looping audio hazır
+[00:06:44.684] Browser LOG     ✅ Short audio hazır
+[00:06:44.684] Browser LOG     ✅ Looping audio hazır
+[00:06:44.684] Browser LOG     ✅ Short audio hazır
+[00:06:44.684] Browser LOG     ✅ Looping audio hazır
+[00:06:44.684] Browser LOG     ✅ Short audio hazır
+[00:06:44.899] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:06:44.899] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:06:47.051] Browser LOG     🔓 Audio unlock deneniyor...
+[00:06:47.051] Browser LOG     🔓 Audio unlock deneniyor...
+[00:06:47.051] Browser LOG     ✅ Looping audio unlocked
+[00:06:47.051] Browser LOG     ✅ Short audio unlocked
+[00:06:47.051] Browser LOG     🎉 Audio tamamen unlocked!
+[00:06:47.051] Browser LOG     ✅ Admin audio unlocked
+[00:06:47.051] Browser LOG     ✅ Looping audio unlocked
+[00:06:47.051] Browser LOG     ✅ Short audio unlocked
+[00:06:47.051] Browser LOG     🎉 Audio tamamen unlocked!
+[00:06:47.051] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542783953
+[00:06:47.051] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542783953
+[00:06:47.051] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:47.051] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:47.051] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:06:47.051] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:06:47.051] Browser LOG     ✅ Looping audio hazır
+[00:06:47.051] Browser LOG     ✅ Short audio hazır
+[00:06:47.051] Browser LOG     ✅ Looping audio hazır
+[00:06:47.051] Browser LOG     ✅ Short audio hazır
+[00:06:47.051] Browser LOG     ✅ Looping audio hazır
+[00:06:47.051] Browser LOG     ✅ Short audio hazır
+[00:06:47.051] Browser LOG     ✅ Looping audio hazır
+[00:06:47.051] Browser LOG     ✅ Short audio hazır
+[00:06:49.369] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:06:49.369] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:06:49.369] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:06:49.369] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:06:55.996] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - TIMED_OUT
+[00:06:55.996] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - TIMED_OUT
+[00:06:58.000] Browser LOG     🍽️ fetchRestaurants başladı
+[00:06:58.000] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:06:58.000] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:06:59.992] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:06:59.992] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:07:02.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:02.877] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542799737
+[00:07:02.877] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:07:02.877] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:02.877] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:02.877] Browser LOG     🍽️ fetchRestaurants başladı
+[00:07:02.877] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:07:02.877] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542799755
+[00:07:02.877] Browser LOG     🍽️ fetchRestaurants başladı
+[00:07:02.877] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:07:02.877] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542799756
+[00:07:02.877] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:02.877] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:02.877] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:02.877] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:02.877] Browser LOG     ✅ Looping audio hazır
+[00:07:02.877] Browser LOG     ✅ Short audio hazır
+[00:07:02.877] Browser LOG     ✅ Looping audio hazır
+[00:07:02.877] Browser LOG     ✅ Looping audio hazır
+[00:07:02.877] Browser LOG     ✅ Short audio hazır
+[00:07:02.877] Browser LOG     ✅ Short audio hazır
+[00:07:03.735] Browser LOG     🔓 Audio unlock deneniyor...
+[00:07:03.735] Browser LOG     🔓 Audio unlock deneniyor...
+[00:07:03.735] Browser LOG     ✅ Looping audio unlocked
+[00:07:03.735] Browser LOG     ✅ Short audio unlocked
+[00:07:03.735] Browser LOG     🎉 Audio tamamen unlocked!
+[00:07:03.735] Browser LOG     ✅ Looping audio unlocked
+[00:07:03.735] Browser LOG     ✅ Short audio unlocked
+[00:07:03.735] Browser LOG     🎉 Audio tamamen unlocked!
+[00:07:03.735] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542800629
+[00:07:03.735] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542800629
+[00:07:03.735] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:03.735] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:03.735] Browser LOG     ✅ Looping audio hazır
+[00:07:03.735] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:03.735] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:03.735] Browser LOG     ✅ Short audio hazır
+[00:07:03.735] Browser LOG     ✅ Looping audio hazır
+[00:07:03.735] Browser LOG     ✅ Short audio hazır
+[00:07:03.735] Browser LOG     ✅ Looping audio hazır
+[00:07:03.735] Browser LOG     ✅ Short audio hazır
+[00:07:03.735] Browser LOG     ✅ Looping audio hazır
+[00:07:03.735] Browser LOG     ✅ Short audio hazır
+[00:07:04.214] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:07:04.214] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:07:04.214] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:07:04.214] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:07:04.214] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:07:04.214] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:07:04.493] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:07:04.493] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:07:06.001] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:07:06.001] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:07:06.306] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:07:06.306] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:07:06.306] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:07:06.306] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:07:06.716] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:07:06.717] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:07:07.133] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:07:07.516] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:07:07.516] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:07:07.516] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:07:07.516] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:07:07.516] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:07:07.516] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:07:07.516] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:07:07.516] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:07:07.516] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:07:08.001] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:07:08.001] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:07:08.001] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:07:08.001] Browser LOG     👤 Realtime courier event: UPDATE edb0065d-93a0-4a2b-9608-8d71f75afff2
+[00:07:08.312] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:07:09.302] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:07:09.302] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:07:09.685] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:07:09.685] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:07:51.782] Browser LOG     ✅ Admin audio unlocked
+[00:07:53.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.531] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542850414
+[00:07:53.531] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:07:53.531] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:53.531] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:53.531] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:07:53.531] Browser LOG     ✅ Short audio hazır
+[00:07:53.531] Browser LOG     ✅ Looping audio hazır
+[00:07:54.501] Browser LOG     🔓 Audio unlock deneniyor...
+[00:07:54.501] Browser LOG     ✅ Looping audio unlocked
+[00:07:54.501] Browser LOG     ✅ Short audio unlocked
+[00:07:54.501] Browser LOG     🎉 Audio tamamen unlocked!
+[00:07:54.501] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542851413
+[00:07:54.501] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:07:54.501] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:07:54.501] Browser LOG     ✅ Looping audio hazır
+[00:07:54.501] Browser LOG     ✅ Short audio hazır
+[00:07:54.501] Browser LOG     ✅ Looping audio hazır
+[00:07:54.501] Browser LOG     ✅ Short audio hazır
+[00:08:16.995] Browser LOG     🍽️ fetchRestaurants başladı
+[00:08:16.995] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:08:16.995] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:08:16.995] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:08:16.995] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:08:16.995] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:08:16.995] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:08:16.995] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:09:03.771] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:03.773] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:03.927] Browser LOG     ⏸️ Kurye bildirimleri durduruldu - Giriş yapılmamış
+[00:09:03.927] Browser LOG     📡 Broadcast devre dışı: isActive= false courierId= 
+[00:09:03.927] Browser LOG     ⏸️ Kurye bildirimleri durduruldu - Giriş yapılmamış
+[00:09:03.927] Browser LOG     📡 Broadcast devre dışı: isActive= false courierId= 
+[00:09:04.226] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:04.229] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:04.231] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:04.401] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542921266
+[00:09:04.401] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:09:04.401] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:09:04.401] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:09:04.401] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:09:04.401] Browser LOG     ✅ Looping audio hazır
+[00:09:04.401] Browser LOG     ✅ Short audio hazır
+[00:09:05.513] Browser LOG     🔓 Audio unlock deneniyor...
+[00:09:05.513] Browser LOG     ✅ Looping audio unlocked
+[00:09:05.513] Browser LOG     ✅ Short audio unlocked
+[00:09:05.513] Browser LOG     🎉 Audio tamamen unlocked!
+[00:09:05.513] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542922431
+[00:09:05.513] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:09:05.513] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:09:05.513] Browser LOG     ✅ Looping audio hazır
+[00:09:05.513] Browser LOG     ✅ Short audio hazır
+[00:09:05.513] Browser LOG     ✅ Looping audio hazır
+[00:09:05.513] Browser LOG     ✅ Short audio hazır
+[00:09:16.992] Browser LOG     🍽️ fetchRestaurants başladı
+[00:09:16.992] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:09:16.992] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:09:16.992] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:09:16.992] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:09:16.992] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:09:16.992] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:09:16.992] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:09:54.059] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:54.060] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.002] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:09:57.002] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:10:03.299] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:10:03.299] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:10:09.135] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:10:09.135] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:10:09.136] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:10:09.136] Browser LOG     🍽️ fetchRestaurants başladı
+[00:10:09.136] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:10:09.136] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542985963
+[00:10:09.136] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:10:09.136] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:10:09.136] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:10:09.136] Browser LOG     🍽️ fetchRestaurants başladı
+[00:10:09.136] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:10:09.136] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542985966
+[00:10:09.136] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:10:09.136] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:10:09.136] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:10:09.136] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:10:09.136] Browser LOG     ✅ Short audio hazır
+[00:10:09.136] Browser LOG     ✅ Short audio hazır
+[00:10:09.136] Browser LOG     ✅ Looping audio hazır
+[00:10:09.136] Browser LOG     ✅ Looping audio hazır
+[00:10:09.422] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:10:09.422] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:10:09.422] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:10:09.422] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:10:09.422] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:10:09.422] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:10:09.422] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:10:09.422] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:10:09.422] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:10:09.422] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:10:09.422] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:10:09.422] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:10:09.422] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:10:09.422] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:10:09.533] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:10:09.533] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:10:09.533] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:10:09.533] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:10:10.507] Browser LOG     🔓 Audio unlock deneniyor...
+[00:10:10.507] Browser LOG     ✅ Admin audio unlocked
+[00:10:10.507] Browser LOG     ✅ Looping audio unlocked
+[00:10:10.507] Browser LOG     ✅ Short audio unlocked
+[00:10:10.507] Browser LOG     🎉 Audio tamamen unlocked!
+[00:10:10.507] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784542987407
+[00:10:10.507] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:10:10.507] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:10:10.507] Browser LOG     ✅ Looping audio hazır
+[00:10:10.507] Browser LOG     ✅ Short audio hazır
+[00:10:10.507] Browser LOG     ✅ Looping audio hazır
+[00:10:10.507] Browser LOG     ✅ Short audio hazır
+[00:10:11.525] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:10:12.622] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:10:12.622] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:10:12.622] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:10:12.622] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:10:15.101] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:10:15.101] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:10:15.101] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:10:15.101] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:10:16.836] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:16.837] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:17.000] Browser LOG     🍽️ fetchRestaurants başladı
+[00:10:17.000] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:10:17.000] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:10:17.000] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:10:17.000] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:10:17.000] Browser LOG     🍽️ Restaurants çekildi: 1 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"qwe qwe","package_fee":100,"phone":"5555555555"}]
+[00:10:17.000] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:10:17.000] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:10:23.863] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:23.864] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:25.016] Browser LOG     👤 Realtime courier event: INSERT 3dc32673-36f8-4006-b765-5c0c624b494a
+[00:10:25.257] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:10:26.000] Browser LOG     👤 Realtime courier event: INSERT 3dc32673-36f8-4006-b765-5c0c624b494a
+[00:10:26.000] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:11:10.000] Browser LOG     🍽️ fetchRestaurants başladı
+[00:11:10.000] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:11:10.000] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:11:10.000] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:11:10.000] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:11:10.000] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:11:10.000] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:11:10.000] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:11:10.454] Browser LOG     🍽️ fetchRestaurants başladı
+[00:11:10.454] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:11:10.642] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:11:10.642] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:11:10.642] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:11:10.642] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:11:10.642] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:11:10.642] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:11:13.491] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:13.492] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:13.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:14.008] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543050549
+[00:11:14.008] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:11:14.008] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:11:14.008] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:11:14.008] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:11:14.008] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:11:14.008] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:11:14.008] Browser LOG     🍽️ fetchRestaurants başladı
+[00:11:14.008] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:11:14.008] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543050608
+[00:11:14.008] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:11:14.008] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:11:14.008] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:11:14.008] Browser LOG     🍽️ fetchRestaurants başladı
+[00:11:14.008] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:11:14.008] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543050610
+[00:11:14.008] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:11:14.008] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:11:14.008] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:11:14.008] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:11:14.008] Browser LOG     ✅ Short audio hazır
+[00:11:14.008] Browser LOG     ✅ Looping audio hazır
+[00:11:14.008] Browser LOG     ✅ Looping audio hazır
+[00:11:14.008] Browser LOG     ✅ Short audio hazır
+[00:11:14.008] Browser LOG     ✅ Looping audio hazır
+[00:11:14.008] Browser LOG     ✅ Short audio hazır
+[00:11:14.008] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:11:14.008] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:11:14.008] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:11:14.008] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:11:14.008] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:11:14.008] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:11:14.008] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:11:14.008] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:11:14.008] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:11:14.008] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:11:14.008] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:11:14.008] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:11:14.009] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:11:14.009] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:11:14.128] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:11:14.128] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:11:14.128] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:11:14.128] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:11:14.811] Browser LOG     🔓 Audio unlock deneniyor...
+[00:11:14.811] Browser LOG     🔓 Audio unlock deneniyor...
+[00:11:14.811] Browser LOG     ✅ Looping audio unlocked
+[00:11:14.811] Browser LOG     ✅ Short audio unlocked
+[00:11:14.811] Browser LOG     🎉 Audio tamamen unlocked!
+[00:11:14.811] Browser LOG     ✅ Admin audio unlocked
+[00:11:14.811] Browser LOG     ✅ Looping audio unlocked
+[00:11:14.811] Browser LOG     ✅ Short audio unlocked
+[00:11:14.811] Browser LOG     🎉 Audio tamamen unlocked!
+[00:11:14.811] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543051705
+[00:11:14.811] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543051705
+[00:11:14.811] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:11:14.811] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:11:14.811] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:11:14.811] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:11:14.811] Browser LOG     ✅ Looping audio hazır
+[00:11:14.811] Browser LOG     ✅ Short audio hazır
+[00:11:14.811] Browser LOG     ✅ Looping audio hazır
+[00:11:14.811] Browser LOG     ✅ Short audio hazır
+[00:11:14.811] Browser LOG     ✅ Looping audio hazır
+[00:11:14.811] Browser LOG     ✅ Short audio hazır
+[00:11:14.811] Browser LOG     ✅ Looping audio hazır
+[00:11:14.811] Browser LOG     ✅ Short audio hazır
+[00:11:16.125] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:11:17.131] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:11:17.131] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:11:17.443] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:11:17.443] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:11:18.280] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:11:18.280] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:11:18.280] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:11:18.280] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:11:23.068] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:11:23.069] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:11:23.069] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:11:23.069] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:11:23.069] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:11:23.069] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:11:23.069] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:11:23.069] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:11:23.276] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:11:23.276] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:11:25.286] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:11:35.993] Browser LOG     👤 Realtime courier event: UPDATE 3dc32673-36f8-4006-b765-5c0c624b494a
+[00:11:35.993] Browser LOG     👤 Realtime courier event: UPDATE 3dc32673-36f8-4006-b765-5c0c624b494a
+[00:11:45.006] Browser LOG     👤 Realtime courier event: UPDATE 3dc32673-36f8-4006-b765-5c0c624b494a
+[00:11:45.006] Browser LOG     👤 Realtime courier event: UPDATE 3dc32673-36f8-4006-b765-5c0c624b494a
+[00:11:52.318] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:11:52.318] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:11:52.318] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:11:52.318] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:11:52.318] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:11:52.318] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:11:52.318] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:11:52.318] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:11:52.318] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:11:52.318] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:11:54.323] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:11:55.036] Browser LOG     ✅ Admin audio unlocked
+[00:11:56.516] Browser LOG     👤 Realtime courier event: UPDATE edb0065d-93a0-4a2b-9608-8d71f75afff2
+[00:11:56.718] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:56.719] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:56.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:56.875] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543093755
+[00:11:56.875] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:11:56.875] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:11:56.875] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:11:56.875] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:11:56.875] Browser LOG     ✅ Looping audio hazır
+[00:11:56.875] Browser LOG     ✅ Short audio hazır
+[00:11:57.005] Browser LOG     👤 Realtime courier event: UPDATE edb0065d-93a0-4a2b-9608-8d71f75afff2
+[00:12:15.005] Browser LOG     🍽️ fetchRestaurants başladı
+[00:12:15.005] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:12:15.005] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:12:15.005] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:12:15.005] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:12:15.005] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:12:15.005] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:12:15.005] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:12:57.087] Browser LOG     🔓 Audio unlock deneniyor...
+[00:12:57.087] Browser LOG     ✅ Looping audio unlocked
+[00:12:57.087] Browser LOG     ✅ Short audio unlocked
+[00:12:57.087] Browser LOG     🎉 Audio tamamen unlocked!
+[00:12:57.087] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543153998
+[00:12:57.087] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:12:57.087] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:12:57.087] Browser LOG     ✅ Short audio hazır
+[00:12:57.087] Browser LOG     ✅ Looping audio hazır
+[00:12:57.087] Browser LOG     ✅ Looping audio hazır
+[00:12:57.087] Browser LOG     ✅ Short audio hazır
+[00:12:58.602] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:12:58.602] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:12:58.602] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:12:58.602] Browser LOG     🍽️ fetchRestaurants başladı
+[00:12:58.602] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:12:58.602] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543155428
+[00:12:58.602] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:12:58.602] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:12:58.602] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:12:58.602] Browser LOG     🍽️ fetchRestaurants başladı
+[00:12:58.602] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:12:58.602] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543155430
+[00:12:58.602] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:12:58.602] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:12:58.602] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:12:58.602] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:12:58.602] Browser LOG     ✅ Looping audio hazır
+[00:12:58.602] Browser LOG     ✅ Short audio hazır
+[00:12:58.602] Browser LOG     ✅ Looping audio hazır
+[00:12:58.602] Browser LOG     ✅ Short audio hazır
+[00:12:59.018] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:12:59.018] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:12:59.018] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:12:59.018] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:12:59.018] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:12:59.018] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:12:59.018] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:12:59.018] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:12:59.018] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:12:59.018] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:12:59.018] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:12:59.018] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:12:59.018] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:12:59.018] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:12:59.018] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:12:59.018] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:12:59.018] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:12:59.018] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:13:01.012] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:13:02.103] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:13:02.103] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:13:02.103] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:13:02.103] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:13:13.497] Browser LOG     ✅ Admin audio unlocked
+[00:13:13.684] Browser LOG     🍽️ fetchRestaurants başladı
+[00:13:13.684] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:13:14.029] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:13:14.029] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:13:14.029] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:13:14.029] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:13:14.244] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:13:14.244] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:13:14.436] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:14.437] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:14.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:14.664] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543171472
+[00:13:14.664] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:13:14.664] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:13:14.664] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:13:14.664] Browser LOG     ℹ️ [RootPage] Aktif oturum yok, login ekranı gösteriliyor
+[00:13:14.664] Browser LOG     ✅ Looping audio hazır
+[00:13:14.664] Browser LOG     ✅ Short audio hazır
+[00:13:16.151] Browser LOG     🔓 Audio unlock deneniyor...
+[00:13:16.151] Browser LOG     ✅ Looping audio unlocked
+[00:13:16.151] Browser LOG     ✅ Short audio unlocked
+[00:13:16.151] Browser LOG     🎉 Audio tamamen unlocked!
+[00:13:16.151] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543173065
+[00:13:16.151] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:13:16.151] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:13:16.151] Browser LOG     ✅ Looping audio hazır
+[00:13:16.151] Browser LOG     ✅ Short audio hazır
+[00:13:16.151] Browser LOG     ✅ Looping audio hazır
+[00:13:16.151] Browser LOG     ✅ Short audio hazır
+[00:13:34.321] Browser LOG     ⏸️ Restoran bildirimleri durduruldu - Giriş yapılmamış
+[00:13:34.321] Browser LOG     ⏸️ Restoran bildirimleri durduruldu - Giriş yapılmamış
+[00:13:34.321] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":0,"threshold":10}
+[00:13:34.321] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:13:34.321] Browser LOG     🔔 Restoran Realtime bildirimleri başlatılıyor, restaurant_id: 3003801
+[00:13:34.321] Browser LOG     📡 Restoran Realtime status: CLOSED
+[00:13:34.321] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":0,"threshold":10}
+[00:13:34.321] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:13:34.510] Browser LOG     ✅ Siparişler yüklendi: 0 adet
+[00:13:34.510] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":0,"threshold":10}
+[00:13:34.510] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:13:34.613] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":0,"threshold":10}
+[00:13:34.613] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:13:34.827] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":0,"threshold":10}
+[00:13:34.827] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:13:34.827] Browser LOG     📡 Restoran Realtime status: SUBSCRIBED
+[00:13:34.827] Browser LOG     📡 Restoran Realtime status: SUBSCRIBED
+[00:13:34.827] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":0,"threshold":10}
+[00:13:34.827] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:13:36.758] Browser LOG     🔓 Restoran initial load koruması kaldırıldı
+[00:13:41.680] Browser LOG     ✅ Changelog görüldü olarak işaretlendi
+[00:13:59.994] Browser LOG     🍽️ fetchRestaurants başladı
+[00:13:59.994] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:13:59.994] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:13:59.994] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:13:59.994] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:13:59.994] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":0,"on_the_way":0,"picking_up":0,"ready":0},"total":0}
+[00:13:59.994] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:13:59.994] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:14:28.241] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":1,"threshold":10}
+[00:14:28.241] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:27:24.887+00:00","elapsedMinutes":"0.00","id":1,"isDelayed":false,"orderNumber":"001000","status":"new_order"}
+[00:14:28.241] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:14:28.542] Browser LOG     📦 Realtime package event: INSERT 1
+[00:14:28.542] Browser LOG     📦 Admin Realtime INSERT event: {"commit_timestamp":"2026-07-20T10:27:24.541Z","errors":null,"eventType":"INSERT","new":{"accepted_at":null,"amount":250,"applied_commission_rate":0,"applied_price":100,"assigned_at":null,"cancellation_reason":null,"cancelled_at":null,"cancelled_by":null,"commission_amount":0,"company_id":null,"content":"DÖNER + AYRAN","courier_id":null,"courier_settled_at":null,"courier_settlement_id":null,"created_at":"2026-07-20T10:27:24.887+00:00","customer_id":null,"customer_name":"DEMO MÜŞTERİ 1","customer_phone":"05555555555","delivered_at":null,"delivered_by_courier_id":null,"delivery_address":"İSMET İNÖNÜ CAD NO 3","delivery_fee":null,"delivery_neighborhood":null,"external_order_number":null,"getting_ready_at":null,"id":1,"is_chargeable_cancellation":false,"is_courier_earned_paid":false,"is_courier_settled":false,"is_paid_to_courier":false,"is_paid_to_restaurant":false,"items":[],"latitude":null,"longitude":null,"order_number":"001000","payment_method":"cash","picked_up_at":null,"platform":null,"ready_at":null,"restaurant_id":"3003801d-4764-4c3a-903f-53311c1701a1","restaurant_settled_at":null,"restaurant_settlement_id":null,"settled_at":null,"source":null,"status":"new_order","subtotal":0,"total":0},"old":{},"schema":"public","table":"packages"}
+[00:14:28.542] Browser LOG     🔔 SİSTEME YENİ SİPARİŞ DÜŞTÜ (Admin): {"accepted_at":null,"amount":250,"applied_commission_rate":0,"applied_price":100,"assigned_at":null,"cancellation_reason":null,"cancelled_at":null,"cancelled_by":null,"commission_amount":0,"company_id":null,"content":"DÖNER + AYRAN","courier_id":null,"courier_settled_at":null,"courier_settlement_id":null,"created_at":"2026-07-20T10:27:24.887+00:00","customer_id":null,"customer_name":"DEMO MÜŞTERİ 1","customer_phone":"05555555555","delivered_at":null,"delivered_by_courier_id":null,"delivery_address":"İSMET İNÖNÜ CAD NO 3","delivery_fee":null,"delivery_neighborhood":null,"external_order_number":null,"getting_ready_at":null,"id":1,"is_chargeable_cancellation":false,"is_courier_earned_paid":false,"is_courier_settled":false,"is_paid_to_courier":false,"is_paid_to_restaurant":false,"items":[],"latitude":null,"longitude":null,"order_number":"001000","payment_method":"cash","picked_up_at":null,"platform":null,"ready_at":null,"restaurant_id":"3003801d-4764-4c3a-903f-53311c1701a1","restaurant_settled_at":null,"restaurant_settlement_id":null,"settled_at":null,"source":null,"status":"new_order","subtotal":0,"total":0}
+[00:14:28.542] Browser LOG     ✅ Admin bildirimi sesi çalıyor
+[00:14:28.542] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:14:28.666] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:14:58.512] Browser LOG     🍽️ fetchRestaurants başladı
+[00:14:58.512] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:14:58.871] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:14:58.871] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:14:58.871] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:14:58.871] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":0},"total":1}
+[00:14:58.871] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:14:58.871] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:15:28.244] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":1,"threshold":10}
+[00:15:28.244] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:27:24.887+00:00","elapsedMinutes":"1.00","id":1,"isDelayed":false,"orderNumber":"001000","status":"new_order"}
+[00:15:28.244] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:15:59.996] Browser LOG     🍽️ fetchRestaurants başladı
+[00:15:59.996] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:15:59.996] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:15:59.996] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:15:59.996] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":0},"total":1}
+[00:15:59.996] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:15:59.996] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:15:59.996] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:16:16.994] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":1,"threshold":10}
+[00:16:16.994] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:27:24.887+00:00","elapsedMinutes":"1.82","id":1,"isDelayed":false,"orderNumber":"001000","status":"new_order"}
+[00:16:16.994] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:16:18.002] Browser LOG     📦 Paket güncellendi: {"id":1,"newStatus":"new_order","willTrigger":false}
+[00:16:18.002] Browser LOG     📦 Realtime package event: UPDATE 1
+[00:16:18.002] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:16:18.002] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:16:33.369] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:16:33.369] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"0.00","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:16:33.369] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:27:24.887+00:00","elapsedMinutes":"2.09","id":1,"isDelayed":false,"orderNumber":"001000","status":"new_order"}
+[00:16:33.369] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:16:34.005] Browser LOG     📦 Realtime package event: INSERT 2
+[00:16:34.005] Browser LOG     📦 Admin Realtime INSERT event: {"commit_timestamp":"2026-07-20T10:29:29.631Z","errors":null,"eventType":"INSERT","new":{"accepted_at":null,"amount":300,"applied_commission_rate":0,"applied_price":100,"assigned_at":null,"cancellation_reason":null,"cancelled_at":null,"cancelled_by":null,"commission_amount":0,"company_id":null,"content":"PİZZA + CAPPY","courier_id":null,"courier_settled_at":null,"courier_settlement_id":null,"created_at":"2026-07-20T10:29:30.014+00:00","customer_id":null,"customer_name":"DEMO MÜŞTERİ 1","customer_phone":"05444444444","delivered_at":null,"delivered_by_courier_id":null,"delivery_address":"ATATÜRK CAD MERGEN APT KAT 2 NO 4","delivery_fee":null,"delivery_neighborhood":null,"external_order_number":null,"getting_ready_at":null,"id":2,"is_chargeable_cancellation":false,"is_courier_earned_paid":false,"is_courier_settled":false,"is_paid_to_courier":false,"is_paid_to_restaurant":false,"items":[],"latitude":null,"longitude":null,"order_number":"001001","payment_method":"card","picked_up_at":null,"platform":null,"ready_at":null,"restaurant_id":"3003801d-4764-4c3a-903f-53311c1701a1","restaurant_settled_at":null,"restaurant_settlement_id":null,"settled_at":null,"source":null,"status":"new_order","subtotal":0,"total":0},"old":{},"schema":"public","table":"packages"}
+[00:16:34.005] Browser LOG     🔔 SİSTEME YENİ SİPARİŞ DÜŞTÜ (Admin): {"accepted_at":null,"amount":300,"applied_commission_rate":0,"applied_price":100,"assigned_at":null,"cancellation_reason":null,"cancelled_at":null,"cancelled_by":null,"commission_amount":0,"company_id":null,"content":"PİZZA + CAPPY","courier_id":null,"courier_settled_at":null,"courier_settlement_id":null,"created_at":"2026-07-20T10:29:30.014+00:00","customer_id":null,"customer_name":"DEMO MÜŞTERİ 1","customer_phone":"05444444444","delivered_at":null,"delivered_by_courier_id":null,"delivery_address":"ATATÜRK CAD MERGEN APT KAT 2 NO 4","delivery_fee":null,"delivery_neighborhood":null,"external_order_number":null,"getting_ready_at":null,"id":2,"is_chargeable_cancellation":false,"is_courier_earned_paid":false,"is_courier_settled":false,"is_paid_to_courier":false,"is_paid_to_restaurant":false,"items":[],"latitude":null,"longitude":null,"order_number":"001001","payment_method":"card","picked_up_at":null,"platform":null,"ready_at":null,"restaurant_id":"3003801d-4764-4c3a-903f-53311c1701a1","restaurant_settled_at":null,"restaurant_settlement_id":null,"settled_at":null,"source":null,"status":"new_order","subtotal":0,"total":0}
+[00:16:34.005] Browser LOG     ✅ Admin bildirimi sesi çalıyor
+[00:16:34.005] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:16:34.005] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:16:42.620] Browser LOG     ✅ Sipariş durumu başarıyla güncellendi
+[00:16:42.752] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:16:42.752] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"0.16","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:16:42.752] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:27:24.887+00:00","elapsedMinutes":"2.25","id":1,"isDelayed":false,"orderNumber":"001000","status":"getting_ready"}
+[00:16:42.752] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:16:42.943] Browser LOG     📦 Paket güncellendi: {"id":1,"newStatus":"getting_ready","willTrigger":false}
+[00:16:42.943] Browser LOG     📦 Realtime package event: UPDATE 1
+[00:16:42.943] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:16:42.947] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:16:42.947] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"0.16","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:16:42.947] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:27:24.887+00:00","elapsedMinutes":"2.25","id":1,"isDelayed":false,"orderNumber":"001000","status":"getting_ready"}
+[00:16:42.947] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:16:43.067] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:16:43.594] Browser LOG     ✅ Sipariş durumu başarıyla güncellendi
+[00:16:43.726] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:16:43.726] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"0.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:16:43.726] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:16:44.010] Browser LOG     📦 Paket güncellendi: {"id":1,"newStatus":"ready","willTrigger":true}
+[00:16:44.010] Browser LOG     🎉 Paket hazır durumuna geçti - Bildirim tetikleniyor!
+[00:16:44.010] Browser LOG     🔔 Bildirim durumu: granted
+[00:16:44.010] Browser LOG     📢 Bildirim gönderiliyor...
+[00:16:44.010] Browser LOG     ✅ Bildirim oluşturuldu: {}
+[00:16:44.010] Browser LOG     📦 Realtime package event: UPDATE 1
+[00:16:44.010] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:16:44.136] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:16:44.997] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:16:44.997] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"0.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:16:44.997] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:16:58.509] Browser LOG     🍽️ fetchRestaurants başladı
+[00:16:58.509] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:16:59.420] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:16:59.420] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:16:59.420] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:16:59.420] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:16:59.558] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:16:59.558] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:17:45.002] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:17:45.002] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"1.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:17:45.002] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:17:59.998] Browser LOG     🍽️ fetchRestaurants başladı
+[00:17:59.998] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:17:59.998] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:17:59.998] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:17:59.998] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:17:59.998] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:17:59.998] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:17:59.998] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:18:43.395] Server  LOG     ✓ Compiled in 535ms
+[00:18:43.974] Server  LOG     ✓ Compiled in 538ms
+[00:18:45.005] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:18:45.005] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"2.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:18:45.005] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:18:46.999] Server  LOG     ✓ Compiled in 509ms
+[00:18:54.931] Server  LOG     ✓ Compiled in 889ms
+[00:18:58.505] Browser LOG     🍽️ fetchRestaurants başladı
+[00:18:58.505] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:18:58.785] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:18:58.785] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:18:58.785] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:18:58.785] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:18:58.994] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:18:58.994] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:19:19.414] Server  LOG     ✓ Compiled in 208ms
+[00:19:44.993] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:19:44.993] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"3.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:19:44.993] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:19:58.503] Browser LOG     🍽️ fetchRestaurants başladı
+[00:19:58.503] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:19:58.854] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:19:58.854] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:19:58.854] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:19:58.854] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:19:58.854] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:19:58.854] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:20:13.386] Server  LOG     ✓ Compiled in 214ms
+[00:20:19.441] Server  LOG     ✓ Compiled in 161ms
+[00:20:19.848] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:20:19.848] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:20:19.848] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'appendChild')
+[00:20:19.848] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:20:19.848] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:20:19.848] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:20:19.848] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:20:19.848] Browser ERROR   uncaughtError: Error: Map container is being reused by another instance
+[00:20:21.799] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:22.061] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:20:22.062] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:20:22.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:22.213] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543599110
+[00:20:22.213] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:20:22.213] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:22.213] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:22.720] Browser LOG     ✅ Looping audio hazır
+[00:20:22.720] Browser LOG     ✅ Short audio hazır
+[00:20:23.775] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:26.625] Browser LOG     🔓 Audio unlock deneniyor...
+[00:20:26.625] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:20:26.625] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:20:26.625] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:20:26.625] Browser LOG     🍽️ fetchRestaurants başladı
+[00:20:26.625] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:20:26.625] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543603248
+[00:20:26.625] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:20:26.625] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:20:26.625] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:20:26.625] Browser LOG     🍽️ fetchRestaurants başladı
+[00:20:26.625] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:20:26.625] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543603250
+[00:20:26.625] Browser LOG     ✅ Looping audio unlocked
+[00:20:26.625] Browser LOG     ✅ Short audio unlocked
+[00:20:26.625] Browser LOG     🎉 Audio tamamen unlocked!
+[00:20:26.625] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543603287
+[00:20:26.625] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:26.625] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:26.625] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:26.625] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:26.625] Browser LOG     ✅ Looping audio hazır
+[00:20:26.625] Browser LOG     ✅ Short audio hazır
+[00:20:26.625] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:26.625] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:26.625] Browser LOG     ✅ Short audio hazır
+[00:20:26.625] Browser LOG     ✅ Looping audio hazır
+[00:20:26.625] Browser LOG     ✅ Looping audio hazır
+[00:20:26.625] Browser LOG     ✅ Short audio hazır
+[00:20:26.625] Browser LOG     ✅ Short audio hazır
+[00:20:26.625] Browser LOG     ✅ Looping audio hazır
+[00:20:26.625] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:20:26.625] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:20:26.625] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:20:26.625] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:20:26.625] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:20:26.625] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:20:26.625] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:20:26.625] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:20:26.625] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:20:26.625] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:20:26.625] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:20:26.625] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:20:26.625] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:20:26.625] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:20:26.793] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:20:26.793] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:20:26.793] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:20:26.793] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:20:28.786] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:20:29.871] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:20:29.871] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:20:29.871] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:20:29.871] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:20:30.932] Browser LOG     🔓 Audio unlock deneniyor...
+[00:20:30.932] Browser LOG     ✅ Admin audio unlocked
+[00:20:30.932] Browser LOG     ✅ Looping audio unlocked
+[00:20:30.932] Browser LOG     ✅ Short audio unlocked
+[00:20:30.932] Browser LOG     🎉 Audio tamamen unlocked!
+[00:20:30.932] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543607841
+[00:20:30.932] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:30.932] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:30.932] Browser LOG     ✅ Looping audio hazır
+[00:20:30.932] Browser LOG     ✅ Short audio hazır
+[00:20:30.932] Browser LOG     ✅ Looping audio hazır
+[00:20:30.932] Browser LOG     ✅ Short audio hazır
+[00:20:32.451] Server  LOG     ✓ Compiled in 150ms
+[00:20:32.867] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:20:32.867] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:20:32.867] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'appendChild')
+[00:20:32.867] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:20:32.867] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:20:32.867] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:20:32.867] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:20:32.867] Browser ERROR   uncaughtError: Error: Map container is being reused by another instance
+[00:20:33.923] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:20:34.052] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:34.147] Server  LOG     ✓ Compiled in 153ms
+[00:20:34.337] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:20:34.338] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:20:34.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:34.794] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543611370
+[00:20:34.794] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:20:34.795] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:34.795] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:34.795] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:20:34.795] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:20:34.795] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:20:34.795] Browser LOG     🍽️ fetchRestaurants başladı
+[00:20:34.795] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:20:34.795] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543611421
+[00:20:34.795] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:20:34.795] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:20:34.795] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:20:34.795] Browser LOG     🍽️ fetchRestaurants başladı
+[00:20:34.795] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:20:34.795] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543611423
+[00:20:34.795] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:34.795] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:34.795] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:34.795] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:34.795] Browser LOG     ✅ Looping audio hazır
+[00:20:34.795] Browser LOG     ✅ Short audio hazır
+[00:20:34.795] Browser LOG     ✅ Looping audio hazır
+[00:20:34.795] Browser LOG     ✅ Short audio hazır
+[00:20:34.795] Browser LOG     ✅ Looping audio hazır
+[00:20:34.795] Browser LOG     ✅ Short audio hazır
+[00:20:34.795] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:20:34.795] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:20:34.795] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:20:34.795] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:20:34.795] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:20:34.795] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:20:34.795] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:20:34.795] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:20:34.795] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:20:34.795] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:20:34.795] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:20:34.795] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:20:34.795] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:20:34.795] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:20:35.000] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:20:35.000] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:20:35.000] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:20:35.000] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:20:35.549] Server  LOG     ✓ Compiled in 158ms
+[00:20:35.968] Server  LOG     ✓ Compiled in 155ms
+[00:20:37.002] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:20:38.045] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:20:38.045] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:20:38.045] Browser LOG     🔓 Audio unlock deneniyor...
+[00:20:38.045] Browser LOG     🔓 Audio unlock deneniyor...
+[00:20:38.045] Browser LOG     ✅ Looping audio unlocked
+[00:20:38.045] Browser LOG     ✅ Short audio unlocked
+[00:20:38.045] Browser LOG     🎉 Audio tamamen unlocked!
+[00:20:38.045] Browser LOG     ✅ Admin audio unlocked
+[00:20:38.045] Browser LOG     ✅ Looping audio unlocked
+[00:20:38.045] Browser LOG     ✅ Short audio unlocked
+[00:20:38.045] Browser LOG     🎉 Audio tamamen unlocked!
+[00:20:38.045] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543614935
+[00:20:38.045] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543614936
+[00:20:38.045] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:38.045] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:38.045] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:38.045] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:38.045] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:20:38.045] Browser LOG     ✅ Looping audio hazır
+[00:20:38.045] Browser LOG     ✅ Short audio hazır
+[00:20:38.045] Browser LOG     ✅ Looping audio hazır
+[00:20:38.045] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:20:38.045] Browser LOG     ✅ Short audio hazır
+[00:20:38.045] Browser LOG     ✅ Looping audio hazır
+[00:20:38.045] Browser LOG     ✅ Looping audio hazır
+[00:20:38.045] Browser LOG     ✅ Short audio hazır
+[00:20:38.045] Browser LOG     ✅ Short audio hazır
+[00:20:41.604] Server  LOG     ✓ Compiled in 214ms
+[00:20:44.999] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:20:44.999] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"4.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:20:44.999] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:20:45.445] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:20:45.447] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:20:45.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:45.604] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543622477
+[00:20:45.604] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:20:45.604] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:45.604] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:45.604] Browser LOG     ✅ Looping audio hazır
+[00:20:45.604] Browser LOG     ✅ Short audio hazır
+[00:20:54.874] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:54.960] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:57.158] Browser LOG     🔓 Audio unlock deneniyor...
+[00:20:57.158] Browser LOG     ✅ Looping audio unlocked
+[00:20:57.158] Browser LOG     ✅ Short audio unlocked
+[00:20:57.158] Browser LOG     🎉 Audio tamamen unlocked!
+[00:20:57.158] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543634073
+[00:20:57.158] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:20:57.158] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:20:57.158] Browser LOG     ✅ Looping audio hazır
+[00:20:57.158] Browser LOG     ✅ Short audio hazır
+[00:20:57.158] Browser LOG     ✅ Looping audio hazır
+[00:20:57.158] Browser LOG     ✅ Short audio hazır
+[00:21:02.535] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:21:02.822] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:02.822] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:21:02.822] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:21:02.822] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:02.822] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:02.822] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543639648
+[00:21:02.822] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:02.822] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:02.822] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:02.822] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:02.822] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:02.822] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543639650
+[00:21:02.822] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:02.822] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:02.822] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:02.822] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:02.822] Browser LOG     ✅ Looping audio hazır
+[00:21:02.822] Browser LOG     ✅ Short audio hazır
+[00:21:02.822] Browser LOG     ✅ Short audio hazır
+[00:21:02.822] Browser LOG     ✅ Looping audio hazır
+[00:21:03.010] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:03.010] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:03.407] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:21:03.407] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:21:03.407] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:21:03.407] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:21:03.407] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:21:03.670] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:21:03.670] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:21:03.670] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:21:03.670] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:21:03.670] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:21:03.670] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:21:03.670] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:21:03.670] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:21:03.670] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:21:03.670] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:21:03.670] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:21:05.654] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:21:06.702] Server  LOG     ✓ Compiled in 149ms
+[00:21:06.747] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:21:06.747] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:21:06.747] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:21:06.747] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:21:07.104] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:07.104] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:07.104] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'appendChild')
+[00:21:07.104] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:07.104] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:07.104] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:07.105] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:07.105] Browser ERROR   uncaughtError: Error: Map container is being reused by another instance
+[00:21:07.220] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:07.349] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:21:07.444] Server  LOG     ✓ Compiled in 168ms
+[00:21:07.444] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543644255
+[00:21:07.444] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:21:07.444] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:07.444] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:07.444] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:07.444] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:21:07.444] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:21:07.444] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:07.444] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:07.444] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543644285
+[00:21:07.444] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:07.444] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:07.444] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:07.444] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:07.444] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:07.444] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543644286
+[00:21:07.444] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:07.444] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:07.444] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:07.444] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:07.662] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:07.664] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:07.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:07.849] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543644699
+[00:21:07.849] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:21:07.849] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:07.849] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:07.849] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:07.849] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:21:07.849] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:21:07.849] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:07.849] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:07.849] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543644750
+[00:21:07.849] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:07.849] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:07.849] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:07.849] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:07.849] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:07.849] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543644751
+[00:21:07.849] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:07.849] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:07.849] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:07.849] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:07.849] Browser LOG     ✅ Looping audio hazır
+[00:21:07.849] Browser LOG     ✅ Short audio hazır
+[00:21:08.237] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:21:08.237] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:08.237] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:08.237] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:21:08.237] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:21:08.237] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:21:08.237] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:21:08.237] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:21:08.237] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:21:08.237] Browser LOG     ✅ Looping audio hazır
+[00:21:08.237] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:21:08.237] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:21:08.237] Browser LOG     ✅ Short audio hazır
+[00:21:08.237] Browser LOG     ✅ Looping audio hazır
+[00:21:08.237] Browser LOG     ✅ Short audio hazır
+[00:21:08.237] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:21:08.237] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:21:08.237] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:21:08.237] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:21:08.237] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:21:08.237] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:21:08.237] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:21:08.333] Server  LOG     ✓ Compiled in 150ms
+[00:21:08.509] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:08.509] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:08.509] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'appendChild')
+[00:21:08.509] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:08.509] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:08.509] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:08.509] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:08.509] Browser ERROR   uncaughtError: Error: Map container is being reused by another instance
+[00:21:08.651] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:08.795] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:21:08.886] Server  LOG     ✓ Compiled in 192ms
+[00:21:08.886] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543645686
+[00:21:08.886] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:21:08.886] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:08.886] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:08.886] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:08.886] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:21:08.886] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:21:08.886] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:08.886] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:08.886] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543645714
+[00:21:08.886] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:08.886] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:08.886] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:08.886] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:08.886] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:08.886] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543645716
+[00:21:08.886] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:08.886] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:08.886] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:08.886] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:09.067] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:09.068] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:09.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:09.528] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543646101
+[00:21:09.528] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:21:09.528] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:09.528] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:09.528] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:09.528] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:21:09.528] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:21:09.528] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:09.528] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:09.528] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543646155
+[00:21:09.528] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:21:09.528] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:21:09.528] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:21:09.528] Browser LOG     🍽️ fetchRestaurants başladı
+[00:21:09.528] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:21:09.528] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543646156
+[00:21:09.528] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:09.528] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:09.528] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:09.528] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:09.528] Browser LOG     ✅ Looping audio hazır
+[00:21:09.528] Browser LOG     ✅ Short audio hazır
+[00:21:09.528] Browser LOG     ✅ Looping audio hazır
+[00:21:09.528] Browser LOG     ✅ Short audio hazır
+[00:21:09.528] Browser LOG     ✅ Looping audio hazır
+[00:21:09.528] Browser LOG     ✅ Short audio hazır
+[00:21:09.528] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:21:09.528] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:21:09.528] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:21:09.528] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:21:09.528] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:21:09.528] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:21:09.528] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:21:09.528] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:21:09.528] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:21:09.528] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:21:09.528] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:21:09.528] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:21:09.528] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:21:09.528] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:21:09.655] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:21:09.655] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:21:09.655] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:21:09.655] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:21:11.402] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:21:11.650] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:21:12.739] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:21:12.739] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:21:12.739] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:21:12.739] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:21:20.414] Server  LOG     ✓ Compiled in 160ms
+[00:21:31.347] Browser LOG     🔓 Audio unlock deneniyor...
+[00:21:31.347] Browser LOG     🔓 Audio unlock deneniyor...
+[00:21:31.347] Browser LOG     ✅ Looping audio unlocked
+[00:21:31.347] Browser LOG     ✅ Short audio unlocked
+[00:21:31.347] Browser LOG     🎉 Audio tamamen unlocked!
+[00:21:31.347] Browser LOG     ✅ Admin audio unlocked
+[00:21:31.347] Browser LOG     ✅ Looping audio unlocked
+[00:21:31.347] Browser LOG     ✅ Short audio unlocked
+[00:21:31.347] Browser LOG     🎉 Audio tamamen unlocked!
+[00:21:31.347] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543668272
+[00:21:31.347] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543668272
+[00:21:31.347] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:31.347] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:31.347] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:21:31.347] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:21:31.848] Browser LOG     ✅ Looping audio hazır
+[00:21:31.848] Browser LOG     ✅ Short audio hazır
+[00:21:31.848] Browser LOG     ✅ Looping audio hazır
+[00:21:31.848] Browser LOG     ✅ Short audio hazır
+[00:21:31.848] Browser LOG     ✅ Looping audio hazır
+[00:21:31.848] Browser LOG     ✅ Short audio hazır
+[00:21:31.848] Browser LOG     ✅ Looping audio hazır
+[00:21:31.848] Browser LOG     ✅ Short audio hazır
+[00:21:44.992] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:21:44.992] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"5.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:21:44.992] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:22:09.234] Browser LOG     🍽️ fetchRestaurants başladı
+[00:22:09.234] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:22:09.831] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:22:09.832] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:22:09.832] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:22:09.832] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:22:09.832] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:22:09.832] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:22:18.620] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:22:18.777] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:22:18.777] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:22:18.777] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:22:18.777] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:22:24.324] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:22:24.324] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:22:24.324] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:22:24.324] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:22:24.324] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:22:24.324] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:22:24.324] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:22:24.324] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:22:24.324] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:22:24.324] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:22:26.332] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:22:31.065] Browser LOG     ✅ Admin audio unlocked
+[00:22:40.531] Server  LOG     ✓ Compiled in 157ms
+[00:22:40.812] Server  LOG     ✓ Compiled in 147ms
+[00:22:41.000] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:22:41.000] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:22:41.000] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:22:41.000] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:22:41.000] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:22:41.000] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:22:41.000] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:22:41.000] Browser LOG     🍽️ fetchRestaurants başladı
+[00:22:41.000] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:22:41.000] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543737550
+[00:22:41.000] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:22:41.000] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:22:41.000] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:22:41.000] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:22:41.000] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:22:41.000] Browser LOG     🍽️ fetchRestaurants başladı
+[00:22:41.000] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:22:41.000] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543737552
+[00:22:41.000] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:22:41.000] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:22:41.000] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:22:41.000] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:22:41.000] Browser LOG     ✅ Looping audio hazır
+[00:22:41.000] Browser LOG     ✅ Looping audio hazır
+[00:22:41.000] Browser LOG     ✅ Short audio hazır
+[00:22:41.000] Browser LOG     ✅ Short audio hazır
+[00:22:41.000] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:22:41.000] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:22:41.000] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:22:41.000] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:22:41.000] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:22:41.000] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:22:41.000] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:22:41.000] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:22:41.000] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:22:41.000] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:22:41.000] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:22:41.000] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:22:41.000] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:22:41.000] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:22:44.000] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:22:47.517] Browser LOG     🔓 Audio unlock deneniyor...
+[00:22:47.517] Browser LOG     ✅ Admin audio unlocked
+[00:22:47.517] Browser LOG     ✅ Looping audio unlocked
+[00:22:47.517] Browser LOG     ✅ Short audio unlocked
+[00:22:47.517] Browser LOG     🎉 Audio tamamen unlocked!
+[00:22:47.517] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543744447
+[00:22:47.517] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:22:47.517] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:22:47.517] Browser LOG     ✅ Looping audio hazır
+[00:22:47.517] Browser LOG     ✅ Short audio hazır
+[00:22:47.997] Browser LOG     ✅ Looping audio hazır
+[00:22:47.997] Browser LOG     ✅ Short audio hazır
+[00:23:16.002] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:23:16.002] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"6.18","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:23:16.002] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:23:41.992] Browser LOG     🍽️ fetchRestaurants başladı
+[00:23:41.992] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:23:41.992] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:23:41.992] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:23:41.992] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:23:41.992] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:23:41.992] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:23:41.992] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:24:42.002] Browser LOG     🍽️ fetchRestaurants başladı
+[00:24:42.002] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:24:42.002] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:24:42.002] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:24:42.002] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:24:42.002] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:24:42.002] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:24:42.002] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:25:09.998] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CHANNEL_ERROR
+[00:25:09.998] Browser LOG     📡 Admin Realtime status: CHANNEL_ERROR
+[00:25:15.001] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:25:15.001] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:25:16.005] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:25:16.005] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"7.72","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:25:16.005] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:25:18.000] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:25:25.421] Server  LOG     ✓ Compiled in 451ms
+[00:25:41.992] Browser LOG     🍽️ fetchRestaurants başladı
+[00:25:41.992] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:25:41.992] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:25:41.992] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:25:41.992] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:25:41.992] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:25:41.992] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:25:41.992] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:25:43.194] Server  LOG     ✓ Compiled in 469ms
+[00:25:47.799] Server  LOG     ✓ Compiled in 150ms
+[00:25:48.120] Browser WARN    Capacitor plugin "App" already registered. Cannot register plugins twice.
+[00:25:48.222] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:25:48.325] Server  LOG     ✓ Compiled in 216ms
+[00:25:48.501] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:48.502] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:48.510] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:50.003] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543925633
+[00:25:50.003] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:25:50.003] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:25:50.003] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:25:50.003] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:25:50.003] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:25:50.003] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:25:50.003] Browser LOG     🍽️ fetchRestaurants başladı
+[00:25:50.003] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:25:50.003] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543925677
+[00:25:50.003] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:25:50.003] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:25:50.003] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:25:50.003] Browser LOG     🍽️ fetchRestaurants başladı
+[00:25:50.003] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:25:50.003] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543925680
+[00:25:50.003] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:25:50.003] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:25:50.003] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:25:50.003] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:25:50.003] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:25:50.003] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:25:50.003] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:25:50.003] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:25:50.003] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:25:50.003] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:25:50.003] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:25:50.003] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:25:50.003] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:25:50.003] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:25:50.003] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:25:50.003] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:25:50.003] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:25:50.003] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:25:50.003] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:25:50.003] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:25:50.003] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:25:50.003] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:25:50.003] Browser LOG     ✅ Short audio hazır
+[00:25:50.003] Browser LOG     ✅ Looping audio hazır
+[00:25:50.003] Browser LOG     ✅ Looping audio hazır
+[00:25:50.003] Browser LOG     ✅ Looping audio hazır
+[00:25:50.003] Browser LOG     ✅ Short audio hazır
+[00:25:50.003] Browser LOG     ✅ Short audio hazır
+[00:25:53.999] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:25:54.000] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:25:54.000] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:25:54.000] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:25:54.000] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:26:15.995] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:26:15.995] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"8.72","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:26:15.995] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:26:17.334] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:17.427] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:17.430] Browser LOG     🔍 Hatırlatıcı kontrolü başladı: {"packageCount":2,"threshold":10}
+[00:26:17.430] Browser LOG     📦 Paket kontrol ediliyor: {"createdAt":"2026-07-20T10:29:30.014+00:00","elapsedMinutes":"9.72","id":2,"isDelayed":false,"orderNumber":"001001","status":"new_order"}
+[00:26:17.430] Browser LOG     ✅ Kontrol tamamlandı: {"delayedCount":0,"delayedPackages":[]}
+[00:26:17.436] Server  LOG     ✓ Compiled in 402ms
+[00:26:17.883] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:17.885] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:17.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:17.904] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:17.906] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:26:17.906] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:18.113] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:18.355] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:19.000] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543955081
+[00:26:19.000] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:26:19.000] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:26:19.000] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:26:19.000] Browser LOG     ✅ Looping audio hazır
+[00:26:19.000] Browser LOG     ✅ Short audio hazır
+[00:26:19.004] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543955018
+[00:26:19.004] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:26:19.004] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:26:19.004] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:26:19.004] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:26:19.004] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:26:19.004] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:26:19.004] Browser LOG     🍽️ fetchRestaurants başladı
+[00:26:19.004] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:26:19.004] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543955059
+[00:26:19.004] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:26:19.004] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:26:19.004] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:26:19.004] Browser LOG     🍽️ fetchRestaurants başladı
+[00:26:19.004] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:26:19.004] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543955060
+[00:26:19.004] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:26:19.004] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:26:19.004] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:26:19.004] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:26:19.004] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:26:19.004] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:26:19.004] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:26:19.004] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:26:19.004] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:26:19.004] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:26:19.004] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:26:19.004] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:26:19.004] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:26:19.004] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:26:19.004] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:26:19.004] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:26:19.004] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:26:19.004] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:26:19.004] Browser LOG     ✅ Looping audio hazır
+[00:26:19.004] Browser LOG     ✅ Short audio hazır
+[00:26:19.004] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:26:19.004] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:26:19.004] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:26:19.004] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:26:19.004] Browser LOG     ✅ Looping audio hazır
+[00:26:19.004] Browser LOG     ✅ Short audio hazır
+[00:26:21.999] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:26:22.782] Server  LOG     ✓ Compiled in 201ms
+[00:26:23.000] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:26:23.000] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:26:23.000] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:26:23.000] Browser LOG     ✅ Realtime bağlandı: couriers-changes
+[00:26:23.110] Server  LOG     ✓ Compiled in 180ms
+[00:26:54.192] Browser LOG     🔓 Audio unlock deneniyor...
+[00:26:54.192] Browser LOG     🔓 Audio unlock deneniyor...
+[00:26:54.192] Browser LOG     ✅ Looping audio unlocked
+[00:26:54.192] Browser LOG     ✅ Short audio unlocked
+[00:26:54.192] Browser LOG     🎉 Audio tamamen unlocked!
+[00:26:54.192] Browser LOG     ✅ Admin audio unlocked
+[00:26:54.192] Browser LOG     ✅ Looping audio unlocked
+[00:26:54.192] Browser LOG     ✅ Short audio unlocked
+[00:26:54.192] Browser LOG     🎉 Audio tamamen unlocked!
+[00:26:54.192] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543991118
+[00:26:54.192] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784543991118
+[00:26:54.192] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:26:54.192] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:26:54.192] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:26:54.192] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:26:54.694] Browser LOG     ✅ Looping audio hazır
+[00:26:54.694] Browser LOG     ✅ Short audio hazır
+[00:26:54.694] Browser LOG     ✅ Short audio hazır
+[00:26:54.694] Browser LOG     ✅ Looping audio hazır
+[00:26:54.694] Browser LOG     ✅ Looping audio hazır
+[00:26:54.694] Browser LOG     ✅ Short audio hazır
+[00:26:54.694] Browser LOG     ✅ Looping audio hazır
+[00:26:54.694] Browser LOG     ✅ Short audio hazır
+[00:27:18.138] Browser LOG     🍽️ fetchRestaurants başladı
+[00:27:18.138] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:27:18.638] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:27:18.638] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:27:18.638] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:27:18.638] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:27:18.638] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:27:18.638] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:27:28.013] Server  WARN    ⚠ ./src/app/kurye/page.tsx:1780:35
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  1778 |         if (typeof window === 'undefined') return
+  1779 |         // eslint-disable-next-line @typescript-eslint/no-explicit-any
+> 1780 |         const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+       |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  1781 |         const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  1782 |         await BackgroundGeolocationPlugin.removeWatcher({ id: watcherId })
+  1783 |         console.log('🛑 Arka plan konum takibi durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:28.014] Server  WARN    ⚠ ./src/hooks/useCourierLocationBroadcast.ts:171:39
+Module not found: Can't resolve '@capacitor-community/background-geolocation'
+  169 |         if (watcherIdRef.current) {
+  170 |           try {
+> 171 |             const bgGeoModule = await import('@capacitor-community/background-geolocation') as any
+      |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  172 |             const BackgroundGeolocationPlugin = bgGeoModule.BackgroundGeolocationPlugin ?? bgGeoModule.default?.BackgroundGeolocationPlugin ?? bgGeoModule.default
+  173 |             await BackgroundGeolocationPlugin.removeWatcher({ id: watcherIdRef.current })
+  174 |             console.log('🛑 Arka plan konum watcher durduruldu')
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component Browser]
+    ./src/app/kurye/page.tsx [Client Component Browser]
+    ./src/app/kurye/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/hooks/useCourierLocationBroadcast.ts [Client Component SSR]
+    ./src/app/kurye/page.tsx [Client Component SSR]
+    ./src/app/kurye/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:28.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:28.144] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784544025044
+[00:27:28.144] Browser LOG     ✅ Service Worker registered: http://localhost:3000/
+[00:27:28.144] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:27:28.144] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:27:28.640] Browser LOG     ✅ Looping audio hazır
+[00:27:28.640] Browser LOG     ✅ Short audio hazır
+[00:27:29.099] Browser LOG     🔓 Audio unlock deneniyor...
+[00:27:29.099] Browser LOG     ✅ Looping audio unlocked
+[00:27:29.099] Browser LOG     ✅ Short audio unlocked
+[00:27:29.099] Browser LOG     🎉 Audio tamamen unlocked!
+[00:27:29.099] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784544026026
+[00:27:29.099] Browser LOG     ✅ Looping audio hazır
+[00:27:29.099] Browser LOG     ✅ Short audio hazır
+[00:27:29.099] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:27:29.099] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:27:29.313] Browser LOG     ✅ Looping audio hazır
+[00:27:29.313] Browser LOG     ✅ Short audio hazır
+[00:27:30.646] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:27:31.156] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:27:31.156] Browser LOG     🔔 Mevcut bildirim izni: granted
+[00:27:31.156] Browser LOG     ✅ Bildirim izni zaten verilmiş
+[00:27:31.156] Browser LOG     🍽️ fetchRestaurants başladı
+[00:27:31.156] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:27:31.156] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784544027746
+[00:27:31.156] Browser LOG     🔌 Admin bildirimleri kapatılıyor
+[00:27:31.156] Browser LOG     📡 Admin Realtime status: CLOSED
+[00:27:31.156] Browser LOG     🔔 Admin Realtime bildirimleri başlatılıyor
+[00:27:31.156] Browser LOG     🍽️ fetchRestaurants başladı
+[00:27:31.156] Browser LOG     📅 Admin Panel - Today Delivered Count Start: 2026-07-20T02:00:00.000Z
+[00:27:31.156] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784544027748
+[00:27:31.156] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:27:31.156] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:27:31.156] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:27:31.156] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:27:31.156] Browser LOG     ✅ Looping audio hazır
+[00:27:31.156] Browser LOG     ✅ Short audio hazır
+[00:27:31.156] Browser LOG     ✅ Short audio hazır
+[00:27:31.156] Browser LOG     ✅ Looping audio hazır
+[00:27:31.156] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:27:31.156] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:27:31.156] Browser LOG     📊 Bugün teslim edilen toplam (delivered + ücretli iptaller): 0
+[00:27:31.156] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:27:31.156] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:27:31.156] Browser LOG     🔌 Harita aboneliği kapatılıyor...
+[00:27:31.156] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): CLOSED
+[00:27:31.156] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:27:31.156] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:27:31.156] Browser LOG     📦 AdminDataProvider - Teslim edilmiş paketler: {"count":0,"sample":[]}
+[00:27:31.156] Browser LOG     📦 AdminDataProvider - Transform sonrası: {"count":0,"deliveredCount":0}
+[00:27:31.156] Browser LOG     📅 Admin Panel - Business Day Start: 2026-07-20T02:00:00.000Z
+[00:27:31.156] Browser LOG     🍽️ Restaurants çekildi: 2 [{"address":"qwe","id":"3003801d-4764-4c3a-903f-53311c1701a1","is_active":true,"logo_url":null,"name":"DEMOBURGER","package_fee":100,"phone":"5555555555"},{"address":"Mergen Teknoloji","id":"0cb09567-12f9-4409-891c-24a17180b0eb","is_active":true,"logo_url":null,"name":"DEMODÖNER","package_fee":100,"phone":"05050591629"}]
+[00:27:31.156] Browser LOG     📦 Admin Panel - Aktif siparişler: {"byStatus":{"assigned":0,"getting_ready":0,"new_order":1,"on_the_way":0,"picking_up":0,"ready":1},"total":2}
+[00:27:31.302] Browser WARN    ⚠️ Realtime bağlantı hatası: packages-changes - CLOSED
+[00:27:31.302] Browser WARN    ⚠️ Realtime bağlantı hatası: couriers-changes - CLOSED
+[00:27:31.302] Browser LOG     📡 Admin Realtime status: SUBSCRIBED
+[00:27:31.302] Browser LOG     📡 Broadcast kanal abonelik durumu (courier-live-locations): SUBSCRIBED
+[00:27:33.290] Browser LOG     🔓 Admin initial load koruması kaldırıldı
+[00:27:34.173] Browser LOG     🔓 Audio unlock deneniyor...
+[00:27:34.173] Browser LOG     ✅ Admin audio unlocked
+[00:27:34.173] Browser LOG     ✅ Looping audio unlocked
+[00:27:34.173] Browser LOG     ✅ Short audio unlocked
+[00:27:34.173] Browser LOG     🎉 Audio tamamen unlocked!
+[00:27:34.173] Browser LOG     🔊 Audio dosyaları yükleniyor... /notification.mp3?v=1784544031079
+[00:27:34.173] Browser LOG     🔊 Looping audio yüklenmeye başladı
+[00:27:34.173] Browser LOG     🔊 Short audio yüklenmeye başladı
+[00:27:34.173] Browser LOG     ✅ Looping audio hazır
+[00:27:34.173] Browser LOG     ✅ Short audio hazır
+[00:27:34.173] Browser LOG     ✅ Looping audio hazır
+[00:27:34.173] Browser LOG     ✅ Short audio hazır
+[00:27:34.284] Browser LOG     🔄 Yeniden bağlanılıyor: packages-changes
+[00:27:34.284] Browser LOG     🔄 Yeniden bağlanılıyor: couriers-changes
+[00:27:34.520] Browser LOG     ✅ Realtime bağlandı: packages-changes
+[00:27:34.520] Browser LOG     ✅ Realtime bağlandı: couriers-changes

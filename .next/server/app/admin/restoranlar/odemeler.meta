@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/restoranlar/layout,_N_T_/admin/restoranlar/odemeler/layout,_N_T_/admin/restoranlar/odemeler/page,_N_T_/admin/restoranlar/odemeler"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/restoranlar/odemeler/__PAGE__",
+    "/admin/restoranlar/odemeler",
+    "/admin/restoranlar",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

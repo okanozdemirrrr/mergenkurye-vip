@@ -9,6 +9,21 @@ import type {
   ApprovalResponse
 } from '@/types/application'
 
+async function callApplicationAction<T>(payload: Record<string, unknown>): Promise<T> {
+  const response = await fetch('/api/applications/action', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+
+  const result = await response.json()
+  if (!response.ok || !result.success) {
+    throw new Error(result.error || 'İşlem gerçekleştirilemedi')
+  }
+
+  return result as T
+}
+
 /**
  * Yeni başvuru oluştur
  */
@@ -80,18 +95,16 @@ export async function getApplications(
 export async function approveCourierApplication(
   applicationId: string,
   adminUserId: string,
-  companyId: string
+  companyId?: string
 ): Promise<ApprovalResponse> {
   try {
-    const { data, error } = await supabase.rpc('approve_courier_application', {
+    return await callApplicationAction<ApprovalResponse>({
+      action: 'approve',
+      application_type: 'kurye',
       application_id: applicationId,
       admin_user_id: adminUserId,
       company_id_param: companyId
     })
-
-    if (error) throw error
-
-    return data as ApprovalResponse
   } catch (error: any) {
     console.error('Kurye onaylama hatası:', error)
     return {
@@ -107,18 +120,16 @@ export async function approveCourierApplication(
 export async function approveRestaurantApplication(
   applicationId: string,
   adminUserId: string,
-  companyId: string
+  companyId?: string
 ): Promise<ApprovalResponse> {
   try {
-    const { data, error } = await supabase.rpc('approve_restaurant_application', {
+    return await callApplicationAction<ApprovalResponse>({
+      action: 'approve',
+      application_type: 'restoran',
       application_id: applicationId,
       admin_user_id: adminUserId,
       company_id_param: companyId
     })
-
-    if (error) throw error
-
-    return data as ApprovalResponse
   } catch (error: any) {
     console.error('Restoran onaylama hatası:', error)
     return {
@@ -137,15 +148,12 @@ export async function rejectApplication(
   reason?: string
 ): Promise<ApplicationResponse> {
   try {
-    const { data, error } = await supabase.rpc('reject_application', {
+    return await callApplicationAction<ApplicationResponse>({
+      action: 'reject',
       application_id: applicationId,
       admin_user_id: adminUserId,
       reason: reason || null
     })
-
-    if (error) throw error
-
-    return data as ApplicationResponse
   } catch (error: any) {
     console.error('Başvuru reddetme hatası:', error)
     return {
@@ -162,13 +170,10 @@ export async function reopenApplication(
   applicationId: string
 ): Promise<ApplicationResponse> {
   try {
-    const { data, error } = await supabase.rpc('reopen_application', {
+    return await callApplicationAction<ApplicationResponse>({
+      action: 'reopen',
       application_id: applicationId
     })
-
-    if (error) throw error
-
-    return data as ApplicationResponse
   } catch (error: any) {
     console.error('Başvuru yeniden açma hatası:', error)
     return {

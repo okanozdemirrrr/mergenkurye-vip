@@ -3,6 +3,7 @@ import "./globals.css";
 import { PWAInstallPrompt } from "@/components/PWAInstallPrompt";
 import { CartProvider } from "@/app/context/CartContext";
 import { NotificationProvider } from "@/contexts/NotificationContext";
+import { DesignModeProvider } from "@/contexts/DesignModeContext";
 
 export const metadata: Metadata = {
   title: "Alda Gel",
@@ -70,27 +71,41 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
+const designModeBootScript = `
+(function(){
+  try {
+    var m = localStorage.getItem('design_mode');
+    document.documentElement.setAttribute('data-design-mode', m === 'classic' ? 'classic' : 'pro');
+  } catch (e) {
+    document.documentElement.setAttribute('data-design-mode', 'pro');
+  }
+})();
+`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr">
+    <html lang="tr" data-design-mode="pro" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: designModeBootScript }} />
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="Alda Gel" />
       </head>
-      <body className="antialiased">
-        <NotificationProvider>
-          <CartProvider>
-            {children}
-            <PWAInstallPrompt />
-          </CartProvider>
-        </NotificationProvider>
+      <body className="antialiased bg-slate-950 text-slate-200">
+        <DesignModeProvider>
+          <NotificationProvider>
+            <CartProvider>
+              {children}
+              <PWAInstallPrompt />
+            </CartProvider>
+          </NotificationProvider>
+        </DesignModeProvider>
       </body>
     </html>
   );

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/restoran/layout,_N_T_/restoran/musterilerim/layout,_N_T_/restoran/musterilerim/page,_N_T_/restoran/musterilerim"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/restoran/musterilerim/__PAGE__",
+    "/restoran/musterilerim",
+    "/restoran",
+    "/_index",
+    "/_head"
+  ]
+}

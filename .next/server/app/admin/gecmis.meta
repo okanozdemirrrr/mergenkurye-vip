@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/gecmis/layout,_N_T_/admin/gecmis/page,_N_T_/admin/gecmis"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/gecmis/__PAGE__",
+    "/admin/gecmis",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

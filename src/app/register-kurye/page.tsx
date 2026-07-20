@@ -74,13 +74,11 @@ export default function RegisterKuryePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 flex items-center justify-center p-4 py-8">
-      <div className="bg-slate-900 p-6 md:p-8 rounded-2xl border border-slate-800 w-full max-w-2xl my-4">
-        {/* Header */}
+    <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4 py-8">
+      <div className="bg-slate-900 p-6 md:p-8 rounded-lg border border-slate-800 w-full max-w-2xl my-4">
         <div className="text-center mb-6">
-          <div className="text-5xl mb-3">🏍️</div>
-          <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">Kurye Başvurusu</h1>
-          <p className="text-slate-400 text-sm">Formu doldurun, admin onayı bekleyin</p>
+          <h1 className="text-2xl font-semibold text-white tracking-tight mb-1">Kurye Başvurusu</h1>
+          <p className="text-slate-500 text-sm">Formu doldurun, admin onayı bekleyin</p>
         </div>
 
         {/* Success Message */}
